@@ -84,3 +84,36 @@
 .pitch-card{font-family:"Poppins",system-ui,sans-serif}
 .pitch-field input,.pitch-field textarea,.pitch-repeat-row input{font-family:"Poppins",system-ui,sans-serif}
 .pitch-action:hover,.pitch-add:hover,.pitch-theme button:hover,.pitch-remove:hover{background:var(--rk-primary-soft)!important}
+
+
+/* Match Pitch Deck spacing and icon rhythm to the main learning UI */
+.pitch-content{padding:var(--rk-space-5) var(--rk-space-6) var(--rk-space-6)}
+.pitch-grid{gap:var(--rk-space-5)}
+.pitch-form{gap:var(--rk-space-4)}
+.pitch-section{padding:var(--rk-space-4);border-radius:var(--rk-radius-lg)}
+.pitch-section-head{gap:var(--rk-space-3);margin-bottom:var(--rk-space-4)}
+.pitch-fields{gap:var(--rk-space-3)}
+.pitch-field{gap:var(--rk-space-2)}
+.pitch-repeat{gap:var(--rk-space-2)}
+.pitch-repeat-row{gap:var(--rk-space-2);align-items:center}
+.pitch-actions{gap:var(--rk-space-2);margin-top:var(--rk-space-4)}
+.pitch-action{min-height:40px;gap:var(--rk-space-2)}
+.pitch-preview{gap:var(--rk-space-3);padding:var(--rk-space-4)}
+.pitch-card{padding:var(--rk-space-4)}
+.pitch-card h4{margin:var(--rk-space-3) 0 var(--rk-space-2)}
+.pitch-card .pitch-chip{margin-top:var(--rk-space-3)}
+.pitch-note{margin-top:var(--rk-space-3)}
+.pitch-status{margin-top:var(--rk-space-3);padding:var(--rk-space-3) var(--rk-space-4)}
+.pitch-theme{gap:var(--rk-space-2);margin-top:var(--rk-space-3)}
+.pitch-preview-head{gap:var(--rk-space-3);margin-bottom:var(--rk-space-3)}
+.pitch-preview-head .lucide,.pitch-action .lucide,.pitch-eyebrow .lucide{vertical-align:middle}
+@media(max-width:760px){
+ .pitch-content{padding:var(--rk-space-4)}
+ .pitch-grid{gap:var(--rk-space-5)}
+ .pitch-preview{gap:var(--rk-space-3)}
+}
+@media(max-width:430px){
+ .pitch-top{padding:var(--rk-space-5)}
+ .pitch-content{padding:var(--rk-space-3)}
+ .pitch-section{padding:var(--rk-space-3)}
+}
