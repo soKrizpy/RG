@@ -76,3 +76,11 @@
 .pitch-builder [hidden]{display:none!important}
 @media(max-width:760px){.pitch-content{padding:14px}.pitch-grid{grid-template-columns:1fr}.pitch-preview-wrap{position:static;grid-row:1}.pitch-preview{grid-template-columns:1fr 1fr}.pitch-card{min-height:135px;padding:13px}.pitch-card h4{font-size:17px}.pitch-student{grid-template-columns:1fr 1fr}}
 @media(max-width:430px){.pitch-top{padding:18px}.pitch-content{padding:11px}.pitch-section{padding:12px}.pitch-fields{grid-template-columns:1fr}.pitch-field.full{grid-column:auto}.pitch-preview{grid-template-columns:1fr}.pitch-card{min-height:112px}.pitch-actions .pitch-action{flex:1}.pitch-student{grid-template-columns:1fr}}
+/* Pitch Deck controls inherit the shared outlined button system. */
+.pitch-shell{box-shadow:none}
+.pitch-action.primary,.pitch-action.secondary,.pitch-action.submit,.pitch-add,.pitch-theme button,.pitch-remove{
+ background:transparent!important;color:var(--rk-primary-text)!important;border:1.5px solid var(--rk-primary)!important;box-shadow:none!important
+}
+.pitch-card{font-family:"Poppins",system-ui,sans-serif}
+.pitch-field input,.pitch-field textarea,.pitch-repeat-row input{font-family:"Poppins",system-ui,sans-serif}
+.pitch-action:hover,.pitch-add:hover,.pitch-theme button:hover,.pitch-remove:hover{background:var(--rk-primary-soft)!important}
