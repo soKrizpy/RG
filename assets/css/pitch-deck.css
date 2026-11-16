@@ -206,3 +206,71 @@ html[data-theme="dark"] .pitch-status.ok{background:#173F3D;color:#75DDB4}
 html[data-theme="dark"] .pitch-status.error{background:#492D3A;color:#FFB4B4}
 html[data-theme="dark"] .pitch-status.info{background:#19364E;color:#7CC9E8}
 html[data-theme="dark"] .pitch-student{border-color:#263D5D}
+
+
+/* Ruang Karya — Pitch Deck follows Clean Classroom / Evening Explorer */
+.pitch-builder{--pd-ink:var(--rk-ink);--pd-muted:var(--rk-muted);--pd-line:var(--rk-line);--pd-paper:var(--rk-surface);--pd-bg:var(--rk-bg);--pd-purple:var(--rk-primary);color:var(--rk-ink)}
+.pitch-shell{background:var(--rk-surface);border:1px solid var(--rk-line);box-shadow:var(--rk-shadow)}
+.pitch-top{background:linear-gradient(118deg,#EAF2FF 0%,#F6F9FC 62%,#FFF4D8 100%)}
+.pitch-eyebrow{color:#1D4ED8}
+.pitch-top h3{color:#1E293B}
+.pitch-top p{color:#475569}
+.pitch-progress span{background:rgba(37,99,235,.16)}
+.pitch-progress span:first-child{background:#2563EB}
+.pitch-section{background:var(--rk-surface);border-color:var(--rk-line)}
+.pitch-section-icon,.pitch-repeat-number{background:var(--rk-primary-soft);color:var(--rk-primary-strong)}
+.pitch-section-head h4,.pitch-preview-head strong{color:var(--rk-ink)}
+.pitch-section-head p,.pitch-field label,.pitch-theme span{color:var(--rk-muted)}
+.pitch-field input,.pitch-field textarea,.pitch-repeat-row input{background:var(--rk-surface-soft);border-color:var(--rk-line);color:var(--rk-ink)}
+.pitch-field input:focus,.pitch-field textarea:focus{border-color:var(--rk-primary);box-shadow:0 0 0 3px color-mix(in srgb,var(--rk-primary) 16%,transparent);background:var(--rk-surface)}
+.pitch-field input::placeholder,.pitch-field textarea::placeholder{color:var(--rk-muted)}
+.pitch-remove{background:var(--rk-alert-soft);color:var(--rk-alert)}
+.pitch-add{border-color:var(--rk-line);background:var(--rk-primary-soft);color:var(--rk-primary-strong)}
+.pitch-add:hover{background:var(--rk-secondary-soft);border-color:var(--rk-primary)}
+.pitch-preview{background:var(--rk-bg);border-color:var(--rk-line)}
+.pitch-card,.pitch-preview[data-theme="ocean"] .pitch-card,.pitch-preview[data-theme="sunset"] .pitch-card{
+  background:linear-gradient(135deg,#1D4ED8,#60A5FA)
+}
+.pitch-card:nth-child(2),.pitch-preview[data-theme="ocean"] .pitch-card:nth-child(2),.pitch-preview[data-theme="sunset"] .pitch-card:nth-child(2){
+  background:linear-gradient(135deg,#1E40AF,#3B82F6)
+}
+.pitch-card:nth-child(3),.pitch-preview[data-theme="sunset"] .pitch-card:nth-child(3){
+  background:linear-gradient(135deg,#B7791F,#F59E0B)
+}
+.pitch-card:nth-child(4),.pitch-preview[data-theme="sunset"] .pitch-card:nth-child(4){
+  background:linear-gradient(135deg,#92400E,#FBBF24)
+}
+.pitch-theme button{background:var(--rk-surface);border-color:var(--rk-line);color:var(--rk-muted)}
+.pitch-theme button[aria-pressed="true"]{border-color:var(--rk-primary);background:var(--rk-primary-soft);color:var(--rk-primary-strong)}
+.pitch-action.primary{background:var(--rk-primary);color:#fff;box-shadow:0 4px 0 #1D4ED8}
+.pitch-action.secondary{background:var(--rk-primary-soft);color:var(--rk-primary-strong)}
+.pitch-action.submit{background:var(--rk-success);color:#052E24}
+.pitch-note{color:var(--rk-muted)}
+.pitch-status.ok{background:var(--rk-success-soft);color:#047857}
+.pitch-status.error{background:var(--rk-alert-soft);color:#B91C1C}
+.pitch-status.info{background:var(--rk-primary-soft);color:var(--rk-primary-strong)}
+.pitch-student{border-color:var(--rk-line)}
+html[data-theme="dark"] .pitch-shell,html[data-theme="dark"] .pitch-content{background:var(--rk-surface);border-color:var(--rk-line)}
+html[data-theme="dark"] .pitch-top{background:linear-gradient(118deg,#172B49 0%,#1E293B 62%,#3D351F 100%)}
+html[data-theme="dark"] .pitch-eyebrow{color:#93C5FD}
+html[data-theme="dark"] .pitch-top h3,html[data-theme="dark"] .pitch-section-head h4,html[data-theme="dark"] .pitch-preview-head strong{color:var(--rk-ink)}
+html[data-theme="dark"] .pitch-top p,html[data-theme="dark"] .pitch-section-head p,html[data-theme="dark"] .pitch-field label,html[data-theme="dark"] .pitch-theme span{color:var(--rk-muted)}
+html[data-theme="dark"] .pitch-progress span{background:rgba(96,165,250,.16)}
+html[data-theme="dark"] .pitch-progress span:first-child{background:#60A5FA}
+html[data-theme="dark"] .pitch-section{background:var(--rk-surface);border-color:var(--rk-line)}
+html[data-theme="dark"] .pitch-section-icon,html[data-theme="dark"] .pitch-repeat-number{background:var(--rk-primary-soft);color:var(--rk-primary)}
+html[data-theme="dark"] .pitch-field input,html[data-theme="dark"] .pitch-field textarea,html[data-theme="dark"] .pitch-repeat-row input{background:var(--rk-surface-soft);border-color:var(--rk-line);color:var(--rk-ink)}
+html[data-theme="dark"] .pitch-field input:focus,html[data-theme="dark"] .pitch-field textarea:focus{background:var(--rk-surface-soft);border-color:var(--rk-primary)}
+html[data-theme="dark"] .pitch-field input::placeholder,html[data-theme="dark"] .pitch-field textarea::placeholder{color:var(--rk-muted)}
+html[data-theme="dark"] .pitch-add{background:var(--rk-primary-soft);border-color:var(--rk-line);color:var(--rk-primary)}
+html[data-theme="dark"] .pitch-preview{background:var(--rk-bg);border-color:var(--rk-line)}
+html[data-theme="dark"] .pitch-theme button{background:var(--rk-surface-soft);border-color:var(--rk-line);color:var(--rk-ink)}
+html[data-theme="dark"] .pitch-theme button[aria-pressed="true"]{background:var(--rk-primary-soft);color:var(--rk-primary);border-color:var(--rk-primary)}
+html[data-theme="dark"] .pitch-action.primary{background:var(--rk-primary);color:#0F172A;box-shadow:0 4px 0 #090D16}
+html[data-theme="dark"] .pitch-action.secondary{background:var(--rk-primary-soft);color:var(--rk-primary)}
+html[data-theme="dark"] .pitch-action.submit{background:var(--rk-success);color:#052E24}
+html[data-theme="dark"] .pitch-status.ok{background:var(--rk-success-soft);color:#6EE7B7}
+html[data-theme="dark"] .pitch-status.error{background:var(--rk-alert-soft);color:#FCA5A5}
+html[data-theme="dark"] .pitch-status.info{background:var(--rk-primary-soft);color:var(--rk-primary)}
+html[data-theme="dark"] .pitch-remove{background:var(--rk-alert-soft);color:var(--rk-alert)}
+html[data-theme="dark"] .pitch-student{border-color:var(--rk-line)}
