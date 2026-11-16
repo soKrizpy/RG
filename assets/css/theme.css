@@ -64,3 +64,19 @@ html[data-theme="dark"]{--rk-theme-meta:#171329}
 }
 .card,.pitch-shell{box-shadow:none!important}
 .card:hover{box-shadow:none!important;transform:none!important;border-color:var(--rk-primary)}
+
+
+/* Shared spacing and icon rhythm */
+:root{
+ --rk-space-1:4px;--rk-space-2:8px;--rk-space-3:12px;--rk-space-4:16px;
+ --rk-space-5:20px;--rk-space-6:24px;--rk-space-7:32px;--rk-space-8:40px;
+ --rk-icon-xs:12px;--rk-icon-sm:14px;--rk-icon-md:16px;--rk-icon-lg:20px;
+ --rk-radius-sm:8px;--rk-radius-md:12px;--rk-radius-lg:16px
+}
+.lucide{
+ width:var(--rk-icon-md);height:var(--rk-icon-md);flex:none;
+ stroke-width:2;vertical-align:-.16em
+}
+.btn .lucide,.next .lucide,.prev .lucide,.save .lucide,.theme-toggle .lucide,
+.pitch-action .lucide,.pitch-add .lucide,.pitch-remove .lucide{width:var(--rk-icon-sm);height:var(--rk-icon-sm)}
+.brand .lucide,.stats article>b .lucide,.callout-icon .lucide,.pitch-section-icon .lucide{width:var(--rk-icon-lg);height:var(--rk-icon-lg)}
