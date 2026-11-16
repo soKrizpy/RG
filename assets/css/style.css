@@ -157,3 +157,46 @@ nav{display:grid;gap:5px}
 .card,.pitch-shell{box-shadow:none!important}
 .card:hover{box-shadow:none!important;transform:none!important;border-color:var(--rk-primary)}
 button:disabled{opacity:.5;cursor:not-allowed}
+
+
+/* Consistent layout rhythm across the homepage and lesson workspace */
+.topactions,.topnote,.back,.crumb,.cardaction,.btn,.next,.prev,.save,.theme-toggle,
+.pitch-action,.pitch-add,.pitch-theme button{gap:var(--rk-space-2)}
+.wrap{margin-top:var(--rk-space-7)}
+.stats{gap:var(--rk-space-3)}
+.cards{gap:var(--rk-space-4)}
+.sectionhead{gap:var(--rk-space-4);margin-bottom:var(--rk-space-4)}
+.cardbody{padding:var(--rk-space-4)}
+.lessonlayout aside{padding:var(--rk-space-6) var(--rk-space-4)}
+nav{gap:var(--rk-space-2)}
+.lesson{padding-top:var(--rk-space-6);padding-bottom:var(--rk-space-6)}
+.crumb{gap:var(--rk-space-2)}
+.part{padding-top:var(--rk-space-6)}
+.part h2{margin:var(--rk-space-1) 0 var(--rk-space-2)}
+.intro{margin-bottom:var(--rk-space-4)}
+.terms{gap:var(--rk-space-3)}
+.steps{gap:var(--rk-space-2)}
+.box,.term,.step,.checks,.work,.quiz,.reflection article{padding:var(--rk-space-4)}
+.callout{gap:var(--rk-space-3);margin:var(--rk-space-3) 0;padding:var(--rk-space-4)}
+.callout-icon{display:grid;place-items:center;flex:none;width:36px;height:36px;border-radius:var(--rk-radius-md);background:var(--rk-surface);color:var(--rk-primary-text)}
+.fields,.slides,.reflection{gap:var(--rk-space-3)}
+.field{gap:var(--rk-space-1)}
+.controls{gap:var(--rk-space-3);margin-top:var(--rk-space-6);padding:var(--rk-space-5) 0}
+.controls button,.btn,.next,.prev,.save,.theme-toggle{min-height:40px}
+.option{margin:var(--rk-space-2) 0;padding:var(--rk-space-3)}
+.quiz{margin:var(--rk-space-4) 0}
+.quiz h3{margin-bottom:var(--rk-space-3)}
+.lesson footer{margin-top:var(--rk-space-5)}
+@media(max-width:680px){
+ .cards{gap:var(--rk-space-3)}
+ .stats{gap:var(--rk-space-2)}
+ .cardbody{padding:var(--rk-space-3)}
+ .lesson{padding:var(--rk-space-4) 14px}
+ .lessonlayout aside{padding:var(--rk-space-2) 10px}
+ nav{gap:var(--rk-space-1)}
+ .part{padding-top:var(--rk-space-5)}
+ .controls{gap:var(--rk-space-2);margin-top:var(--rk-space-5);padding:var(--rk-space-4) 0}
+}
+@media(max-width:390px){
+ .controls button{min-height:38px}
+}
