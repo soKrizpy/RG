@@ -1,0 +1,400 @@
+{
+  "id": "sesi-2",
+  "number": 2,
+  "title": "Kurir Paket Pintar",
+  "sections": [
+    {
+      "title": "Halo, Kurir Cilik!",
+      "intro": "Kiko mendapat tugas mengantar paket ke tiga rumah. Bantu Kiko bergerak dari titik awal menuju Rumah A, Rumah B, dan Rumah C di Stage Scratch.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/learning-world.svg",
+          "alt": "Ilustrasi ruang belajar coding",
+          "caption": "Misi kita: bantu Kiko menemukan lokasi rumah dan mengantar paket."
+        },
+        {
+          "type": "callout",
+          "tone": "mission",
+          "icon": "target",
+          "title": "Misi hari ini",
+          "text": "Atur posisi awal Sprite, lalu gunakan go to dan glide agar Kiko mengunjungi tiga rumah sesuai urutan."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Mengenal koordinat",
+              "description": "Pahami sumbu X untuk kiri-kanan dan sumbu Y untuk bawah-atas."
+            },
+            {
+              "title": "Menentukan lokasi",
+              "description": "Gunakan pasangan angka X dan Y untuk menunjukkan posisi di Stage."
+            },
+            {
+              "title": "Mengantar paket",
+              "description": "Susun script agar Kiko bergerak dan menyapa di setiap rumah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Konsep Coding: Koordinat X dan Y",
+      "intro": "Stage Scratch memiliki titik tengah (0, 0). Angka X mengatur posisi mendatar, sedangkan angka Y mengatur posisi tegak.",
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "X positif (+)",
+              "icon": "arrow-right",
+              "definition": "Menggerakkan posisi ke arah kanan dari titik tengah."
+            },
+            {
+              "term": "X negatif (-)",
+              "icon": "arrow-left",
+              "definition": "Menggerakkan posisi ke arah kiri dari titik tengah."
+            },
+            {
+              "term": "Y positif (+)",
+              "icon": "arrow-up",
+              "definition": "Menggerakkan posisi ke arah atas dari titik tengah."
+            },
+            {
+              "term": "Y negatif (-)",
+              "icon": "arrow-down",
+              "definition": "Menggerakkan posisi ke arah bawah dari titik tengah."
+            },
+            {
+              "term": "go to x: y:",
+              "icon": "map-pin",
+              "definition": "Memindahkan Sprite langsung ke koordinat yang ditentukan."
+            },
+            {
+              "term": "glide",
+              "icon": "navigation",
+              "definition": "Menggerakkan Sprite secara perlahan menuju koordinat selama waktu tertentu."
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "label": "INGAT TITIK TENGAH",
+          "text": "Koordinat (0, 0) berada di tengah Stage. Contoh: (-150, 80) berarti 150 langkah ke kiri dan 80 langkah ke atas."
+        },
+        {
+          "type": "callout",
+          "icon": "lightbulb",
+          "title": "Batas Stage",
+          "text": "Area Stage kira-kira memiliki X dari -240 sampai 240 dan Y dari -180 sampai 180. Pastikan koordinat Sprite masih berada di dalam area."
+        }
+      ]
+    },
+    {
+      "title": "Aktivitas Mini: Jelajahi Stage",
+      "intro": "Sebelum membuat script, coba pindahkan Sprite dan perhatikan angka koordinatnya.",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Pilih Sprite",
+              "description": "Klik salah satu Sprite pada Sprite List."
+            },
+            {
+              "title": "Cari posisi X dan Y",
+              "description": "Perhatikan nilai X dan Y di dekat Stage."
+            },
+            {
+              "title": "Geser ke kanan dan kiri",
+              "description": "Drag Sprite ke kanan, lalu ke kiri. Amati perubahan X."
+            },
+            {
+              "title": "Geser ke atas dan bawah",
+              "description": "Drag Sprite ke atas, lalu ke bawah. Amati perubahan Y."
+            },
+            {
+              "title": "Kembali ke tengah",
+              "description": "Atur posisi Sprite ke X 0 dan Y 0."
+            }
+          ]
+        },
+        {
+          "type": "worksheet",
+          "title": "Tebak koordinat",
+          "description": "Tuliskan perkiraanmu sebelum mencoba di Scratch.",
+          "fields": [
+            {
+              "id": "right-x",
+              "label": "Jika Sprite ke kanan, nilai X menjadi..."
+            },
+            {
+              "id": "left-x",
+              "label": "Jika Sprite ke kiri, nilai X menjadi..."
+            },
+            {
+              "id": "up-y",
+              "label": "Jika Sprite ke atas, nilai Y menjadi..."
+            },
+            {
+              "id": "down-y",
+              "label": "Jika Sprite ke bawah, nilai Y menjadi..."
+            },
+            {
+              "id": "center",
+              "label": "Koordinat titik tengah Stage",
+              "full": true
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "id": "s2-axis",
+          "question": "Jika Sprite bergerak ke atas, nilai koordinat mana yang bertambah?",
+          "options": [
+            "X",
+            "Y",
+            "X dan Y selalu sama"
+          ],
+          "answer": 1,
+          "correctMessage": "Tepat! Bergerak ke atas membuat nilai Y bertambah.",
+          "tryMessage": "Ingat: X untuk kiri-kanan, Y untuk atas-bawah."
+        }
+      ]
+    },
+    {
+      "title": "Persiapan Proyek Kurir Paket",
+      "intro": "Siapkan karakter kurir dan tiga rumah sebagai tujuan pengantaran.",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Buat project baru",
+              "description": "Buka Scratch dan buat project baru. Beri nama Kurir Paket Pintar."
+            },
+            {
+              "title": "Pilih Sprite kurir",
+              "description": "Pilih satu karakter yang akan menjadi Kiko atau kurir paket."
+            },
+            {
+              "title": "Tambahkan tiga rumah",
+              "description": "Tambahkan tiga Sprite rumah. Beri nama Rumah A, Rumah B, dan Rumah C agar mudah dikenali."
+            },
+            {
+              "title": "Atur posisi rumah",
+              "description": "Atur Rumah A di (-150, 80), Rumah B di (150, 50), dan Rumah C di (80, -100)."
+            },
+            {
+              "title": "Atur posisi awal kurir",
+              "description": "Pilih Sprite kurir dan atur posisi awalnya di (0, 0)."
+            }
+          ]
+        },
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Titik awal",
+              "icon": "map-pin",
+              "definition": "Kurir mulai dari koordinat (0, 0)."
+            },
+            {
+              "term": "Rumah A",
+              "icon": "home",
+              "definition": "Tujuan pertama: X -150, Y 80."
+            },
+            {
+              "term": "Rumah B",
+              "icon": "home",
+              "definition": "Tujuan kedua: X 150, Y 50."
+            },
+            {
+              "term": "Rumah C",
+              "icon": "home",
+              "definition": "Tujuan ketiga: X 80, Y -100."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "icon": "lightbulb",
+          "title": "Tips tata letak",
+          "text": "Jika Sprite rumah terlalu besar atau saling menutupi, ubah ukurannya agar ketiga tujuan terlihat jelas."
+        }
+      ]
+    },
+    {
+      "title": "Misi Utama: Antar Paket ke Tiga Rumah",
+      "intro": "Gunakan go to untuk menentukan posisi awal, lalu glide untuk perjalanan. Tambahkan say agar kurir menyapa saat tiba.",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "A — Tentukan posisi awal",
+              "description": "Pada Sprite kurir, susun when green flag clicked → go to x: 0 y: 0. Blok go to langsung memindahkan kurir ke titik awal."
+            },
+            {
+              "title": "B — Antar ke Rumah A",
+              "description": "Tambahkan glide 2 seconds to x: -150 y: 80. Setelah tiba, tambahkan say [Paket untuk Rumah A!] for 2 seconds."
+            },
+            {
+              "title": "C — Antar ke Rumah B",
+              "description": "Tambahkan glide 2 seconds to x: 150 y: 50. Setelah tiba, tambahkan say [Halo, Rumah B!] for 2 seconds."
+            },
+            {
+              "title": "D — Antar ke Rumah C",
+              "description": "Tambahkan glide 2 seconds to x: 80 y: -100. Setelah tiba, tambahkan say [Paket untuk Rumah C!] for 2 seconds."
+            },
+            {
+              "title": "E — Jalankan misi",
+              "description": "Klik Green Flag. Amati apakah kurir bergerak dari titik awal ke A, B, lalu C dan menampilkan dialog di setiap rumah."
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "label": "URUTAN SCRIPT",
+          "text": "when green flag clicked → go to x: 0 y: 0 → glide 2 secs to x: -150 y: 80 → say [Paket untuk Rumah A!] for 2 secs → glide 2 secs to x: 150 y: 50 → say [Halo, Rumah B!] for 2 secs → glide 2 secs to x: 80 y: -100 → say [Paket untuk Rumah C!] for 2 secs"
+        },
+        {
+          "type": "callout",
+          "tone": "mission",
+          "icon": "spark",
+          "title": "Go to atau glide?",
+          "text": "Go to berpindah langsung tanpa perjalanan yang terlihat. Glide membuat Sprite bergerak menuju tujuan selama waktu yang kamu tentukan."
+        }
+      ]
+    },
+    {
+      "title": "Detektif Kode: Periksa Rute Kurir",
+      "intro": "Jika kurir salah arah atau tidak sampai, periksa koordinat, urutan blok, dan durasi glide.",
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Kurir mulai di tempat salah",
+              "icon": "map-pin",
+              "definition": "Periksa go to x: 0 y: 0 setelah Green Flag."
+            },
+            {
+              "term": "Kurir tidak bergerak perlahan",
+              "icon": "navigation",
+              "definition": "Pastikan menggunakan glide, bukan go to, untuk perjalanan."
+            },
+            {
+              "term": "Rumah tidak terjangkau",
+              "icon": "home",
+              "definition": "Periksa angka X dan Y. Pastikan Sprite tujuan berada di dalam Stage."
+            },
+            {
+              "term": "Dialog muncul terlalu cepat",
+              "icon": "message-circle",
+              "definition": "Letakkan say setelah glide agar dialog muncul saat kurir tiba."
+            },
+            {
+              "term": "Rumah dikunjungi tidak berurutan",
+              "icon": "list-ordered",
+              "definition": "Susun blok perjalanan A, lalu B, lalu C."
+            }
+          ]
+        },
+        {
+          "type": "checklist",
+          "id": "s2-debug",
+          "items": [
+            "Kurir mulai di (0, 0).",
+            "Rumah A berada di (-150, 80).",
+            "Rumah B berada di (150, 50).",
+            "Rumah C berada di (80, -100).",
+            "Setiap glide menuju koordinat yang benar.",
+            "Setiap dialog muncul setelah kurir tiba.",
+            "Kurir mengunjungi A, B, lalu C."
+          ]
+        },
+        {
+          "type": "quiz",
+          "id": "s2-go-glide",
+          "question": "Blok mana yang membuat perjalanan Sprite terlihat bergerak selama beberapa detik?",
+          "options": [
+            "go to",
+            "glide",
+            "say"
+          ],
+          "answer": 1,
+          "correctMessage": "Benar! Glide membuat Sprite bergerak menuju tujuan selama durasi tertentu.",
+          "tryMessage": "Pilih blok yang memiliki pengaturan waktu perjalanan."
+        }
+      ]
+    },
+    {
+      "title": "Output Minimum, Refleksi & Misi Bonus",
+      "intro": "Pastikan kurir berhasil mengantar paket ke tiga rumah sebelum menyimpan project.",
+      "blocks": [
+        {
+          "type": "checklist",
+          "id": "s2-output",
+          "items": [
+            "Ada satu Sprite kurir.",
+            "Ada tiga Sprite rumah sebagai tujuan.",
+            "Posisi awal kurir adalah (0, 0).",
+            "Rumah A, B, dan C berada pada koordinat yang ditentukan.",
+            "Kurir menggunakan glide untuk mengunjungi tiga rumah.",
+            "Kurir menampilkan dialog setelah tiba di setiap rumah.",
+            "Urutan kunjungan adalah A, B, lalu C."
+          ]
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Simpan project",
+              "description": "Beri nama Kurir Paket Pintar dan simpan project Scratch."
+            },
+            {
+              "title": "Bagikan hasil",
+              "description": "Salin link project dan kirim kepada guru jika diminta."
+            }
+          ]
+        },
+        {
+          "type": "reflection",
+          "items": [
+            {
+              "title": "Koordinat",
+              "prompt": "Apa perbedaan fungsi X dan Y?"
+            },
+            {
+              "title": "Dua blok gerak",
+              "prompt": "Apa perbedaan go to dan glide?"
+            },
+            {
+              "title": "Durasi perjalanan",
+              "prompt": "Apa yang terjadi jika glide diubah dari 2 detik menjadi 0,5 detik?"
+            },
+            {
+              "title": "Debugging",
+              "prompt": "Bagaimana cara menemukan penyebab kurir tiba di lokasi yang salah?"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "mission",
+          "icon": "trophy",
+          "title": "Misi bonus",
+          "text": "Ubah dialog setiap rumah, tambahkan suara saat paket diantar, atau buat kurir kembali ke pos setelah Rumah C. Coba glide 0,5 detik dan 3 detik, lalu bandingkan."
+        },
+        {
+          "type": "callout",
+          "icon": "spark",
+          "title": "Misi selesai!",
+          "text": "Hebat! Kamu sudah menggunakan koordinat X/Y dan mengatur perjalanan Sprite dengan go to serta glide."
+        }
+      ]
+    }
+  ]
+}
