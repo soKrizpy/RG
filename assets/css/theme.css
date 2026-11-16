@@ -558,3 +558,9 @@ html[data-theme="dark"] .callout p{color:var(--rk-muted-on-accent)}
   outline:3px solid var(--rk-primary);outline-offset:3px
 }
 ::selection{background:var(--rk-primary-soft);color:var(--rk-ink)}
+
+
+/* Content cards are not theme UI, but their text must remain readable. */
+.slide{background:linear-gradient(135deg,#0F766E,#115E59);color:#FFFFFF}
+.slide p{color:#FFFFFF}
+.slide:nth-child(2){background:linear-gradient(135deg,#9A3412,#C2410C)}
