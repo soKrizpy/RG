@@ -50,3 +50,17 @@ body,body *{font-family:"Poppins",system-ui,sans-serif!important}
 .theme-toggle:hover{background:var(--rk-primary-soft)}
 :root{--rk-theme-meta:#F8F7FC}
 html[data-theme="dark"]{--rk-theme-meta:#171329}
+
+/* Final global control override: this stylesheet loads after the base layout. */
+.btn,.next,.quiz button,.prev,.save,.theme-toggle,.pitch-action,.pitch-add,.pitch-theme button,.pitch-remove{
+ box-shadow:none!important;text-shadow:none!important;transform:none!important;
+ border:1.5px solid var(--rk-primary)!important;border-radius:9px!important;
+ background:transparent!important;color:var(--rk-primary-text)!important;
+ font-family:"Poppins",system-ui,sans-serif!important;font-weight:700!important;
+ transition:background-color .15s,border-color .15s,color .15s!important
+}
+.btn:hover,.next:hover,.quiz button:hover,.prev:hover,.save:hover,.theme-toggle:hover,.pitch-action:hover,.pitch-add:hover,.pitch-theme button:hover,.pitch-remove:hover{
+ background:var(--rk-primary-soft)!important;color:var(--rk-primary-text)!important;filter:none!important;transform:none!important
+}
+.card,.pitch-shell{box-shadow:none!important}
+.card:hover{box-shadow:none!important;transform:none!important;border-color:var(--rk-primary)}
