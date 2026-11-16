@@ -422,3 +422,12 @@ html[data-theme="dark"] .btn-primary{color:#0F172A;box-shadow:0 4px 0 #090D16}
 /* Remove inherited teal/legacy palette from old theme aliases. */
 :root{--purple:var(--rk-primary);--lav:var(--rk-primary-soft);--green:var(--rk-success);--bg:var(--rk-bg);--ink:var(--rk-ink);--muted:var(--rk-muted);--line:var(--rk-line)}
 html[data-theme="dark"]{--purple:var(--rk-primary);--lav:var(--rk-primary-soft);--green:var(--rk-success);--bg:var(--rk-bg);--ink:var(--rk-ink);--muted:var(--rk-muted);--line:var(--rk-line)}
+
+
+/* Lesson interaction polish: saved reflections and palette-aware feedback. */
+.reflection article{min-width:0}
+.reflection textarea{display:block;width:100%;min-height:88px;margin-top:9px;padding:10px 11px;resize:vertical;border:1px solid var(--rk-line);border-radius:10px;background:var(--rk-surface-soft);color:var(--rk-ink);font:600 12px/1.55 Nunito,Arial,sans-serif}
+.reflection textarea::placeholder{color:var(--rk-muted);opacity:.8}
+.feedback.is-success{display:block;margin-top:9px;color:var(--rk-success)}
+.feedback.is-error{display:block;margin-top:9px;color:var(--rk-alert)}
+@media(max-width:700px){.reflection textarea{min-height:76px}.reflection article{min-width:0}}
