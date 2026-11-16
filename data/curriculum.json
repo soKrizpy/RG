@@ -2,6 +2,22 @@
   "title": "Petualangan Coding Scratch",
   "sessions": [
     {
+      "id": "sesi-1",
+      "number": "01",
+      "title": "Kartu Nama Interaktif",
+      "category": "Pengenalan Scratch",
+      "description": "Kenali Sprite, Stage, dan blok dasar. Buat karakter yang menyapa, bergerak, dan berganti kostum.",
+      "cover": "assets/images/learning-world.svg"
+    },
+    {
+      "id": "sesi-2",
+      "number": "02",
+      "title": "Kurir Paket Pintar",
+      "category": "Koordinat & gerak",
+      "description": "Pelajari koordinat X/Y, atur posisi Sprite, lalu gerakkan Kiko mengantar paket dengan glide.",
+      "cover": "assets/images/pitch-deck.svg"
+    },
+    {
       "id": "sesi-19",
       "number": "19",
       "title": "Game Tangkap Dasar",
