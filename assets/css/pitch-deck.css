@@ -149,3 +149,5 @@ html[data-theme="dark"] .pitch-status.error{color:#ffb4a0}
 .pitch-remove [data-lucide]{width:15px;height:15px}
 .pitch-remove{position:relative}
 html[data-theme="dark"] .pitch-remove{background:#49342f;color:#ffab82}
+
+.pitch-add [data-lucide]{width:13px;height:13px;vertical-align:-3px}.pitch-remove [data-lucide]{width:15px;height:15px}
