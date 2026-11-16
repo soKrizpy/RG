@@ -1,57 +1,57 @@
-/* Ruang Karya — Midnight Ocean & Terminal Cyan */
+/* Ruang Karya — Cosmic Explorer: STEM, Coding & Math */
 :root{
   color-scheme:light;
-  --rk-bg:#F0F4F8;
+  --rk-bg:#F4F8FB;
   --rk-surface:#FFFFFF;
   --rk-surface-soft:#F7FAFC;
-  --rk-ink:#0A192F;
-  --rk-muted:#52657D;
-  --rk-line:#D7E0EA;
-  --rk-primary:#007A65;
-  --rk-primary-strong:#006653;
-  --rk-primary-soft:#DDF3ED;
-  --rk-secondary:#287C9B;
-  --rk-secondary-soft:#E4F1F7;
-  --rk-success:#16845F;
-  --rk-success-soft:#E2F4EA;
-  --rk-warning:#A66A16;
-  --rk-warning-soft:#FFF2D9;
-  --rk-shadow:0 14px 36px rgba(10,25,47,.08)
+  --rk-ink:#1E293B;
+  --rk-muted:#64748B;
+  --rk-line:#DCE5EF;
+  --rk-primary:#3B82F6;
+  --rk-primary-strong:#2563EB;
+  --rk-primary-soft:#DBEAFE;
+  --rk-secondary:#F59E0B;
+  --rk-secondary-soft:#FEF3C7;
+  --rk-success:#15803D;
+  --rk-success-soft:#DCFCE7;
+  --rk-warning:#B45309;
+  --rk-warning-soft:#FEF3C7;
+  --rk-shadow:0 14px 36px rgba(30,41,59,.08)
 }
 html[data-theme="dark"]{
   color-scheme:dark;
-  --rk-bg:#0A192F;
-  --rk-surface:#112240;
-  --rk-surface-soft:#172F50;
-  --rk-ink:#CCD6F6;
-  --rk-muted:#9EACCA;
-  --rk-line:#263D5D;
-  --rk-primary:#64FFDA;
-  --rk-primary-strong:#64FFDA;
-  --rk-primary-soft:#173B4B;
-  --rk-secondary:#7CC9E8;
-  --rk-secondary-soft:#19364E;
-  --rk-success:#75DDB4;
-  --rk-success-soft:#173F3D;
-  --rk-warning:#F2C879;
-  --rk-warning-soft:#493B2A;
-  --rk-shadow:0 18px 44px rgba(0,0,0,.24)
+  --rk-bg:#0F172A;
+  --rk-surface:#1E293B;
+  --rk-surface-soft:#27364B;
+  --rk-ink:#F8FAFC;
+  --rk-muted:#CBD5E1;
+  --rk-line:#334155;
+  --rk-primary:#60A5FA;
+  --rk-primary-strong:#93C5FD;
+  --rk-primary-soft:#1E3A5F;
+  --rk-secondary:#FBBF24;
+  --rk-secondary-soft:#4A3A18;
+  --rk-success:#86EFAC;
+  --rk-success-soft:#17432B;
+  --rk-warning:#FBBF24;
+  --rk-warning-soft:#4A3A18;
+  --rk-shadow:0 18px 44px rgba(0,0,0,.28)
 }
 html,body{background:var(--rk-bg);color:var(--rk-ink)}
 html[data-theme="dark"] body{--ink:var(--rk-ink);--muted:var(--rk-muted);--line:var(--rk-line);--purple:var(--rk-primary);--lav:var(--rk-primary-soft);--green:var(--rk-success);--bg:var(--rk-bg);background:var(--rk-bg);color:var(--rk-ink)}
 .top,aside,.stats article,.card,.box,.term,.step,.checks,.work,.quiz,.reflection article,.loading{background:var(--rk-surface);border-color:var(--rk-line);color:var(--rk-ink)}
-.hero{background:linear-gradient(118deg,#E2F1F2 0%,#EAF1F8 58%,#E4F2EE 100%);border-color:#D5E5E7}
-html[data-theme="dark"] .hero{background:linear-gradient(118deg,#102B46 0%,#112240 62%,#123B43 100%);border-color:#244B60}
-.lessonhero{background:linear-gradient(118deg,#E2F1F2,#EAF1F8);border:1px solid #D5E5E7}
-html[data-theme="dark"] .lessonhero{background:linear-gradient(118deg,#102B46,#112B42);border-color:#244B60}
+.hero{background:linear-gradient(118deg,#EAF3FF 0%,#F4F8FB 58%,#FFF5DB 100%);border-color:#D8E6F5}
+html[data-theme="dark"] .hero{background:linear-gradient(118deg,#172B49 0%,#1E293B 62%,#3D3524 100%);border-color:#3B5273}
+.lessonhero{background:linear-gradient(118deg,#EAF3FF,#F4F8FB);border:1px solid #D5E5E7}
+html[data-theme="dark"] .lessonhero{background:linear-gradient(118deg,#172B49,#1E293B);border-color:#3B5273}
 .hero p,.sectionhead p,.card p,.box p,.term p,.step p,.work>p,.reflection p,.lessonhero p,.example p{color:var(--rk-muted)}
 .hero small,.sectionhead small,.kicker,.tag,.crumb a,.crumb b,.lesson footer{color:var(--rk-primary-strong)}
 html[data-theme="dark"] .hero small,html[data-theme="dark"] .sectionhead small,html[data-theme="dark"] .kicker,html[data-theme="dark"] .tag,html[data-theme="dark"] .crumb a,html[data-theme="dark"] .crumb b,html[data-theme="dark"] .lesson footer{color:var(--rk-primary)}
 .hero em{color:var(--rk-primary-strong)}
 html[data-theme="dark"] .hero em{color:var(--rk-primary)}
 .brand span{color:var(--rk-primary)}
-.btn,.next,.quiz button{background:var(--rk-primary);color:#fff;box-shadow:0 7px 18px rgba(0,122,101,.16)}
-html[data-theme="dark"] .btn,html[data-theme="dark"] .next,html[data-theme="dark"] .quiz button{background:var(--rk-primary);color:#0A192F;box-shadow:0 7px 20px rgba(100,255,218,.12)}
+.btn,.next,.quiz button{background:var(--rk-primary);color:#fff;box-shadow:0 7px 18px rgba(59,130,246,.18)}
+html[data-theme="dark"] .btn,html[data-theme="dark"] .next,html[data-theme="dark"] .quiz button{background:var(--rk-primary);color:#0F172A;box-shadow:0 7px 20px rgba(96,165,250,.16)}
 .stats article>b,.number,.num,.step>i{background:var(--rk-primary-soft);color:var(--rk-primary-strong)}
 .pill{background:var(--rk-surface);border-color:var(--rk-line);color:var(--rk-muted)}
 .pill b,.cardaction{color:var(--rk-primary-strong)}
@@ -61,10 +61,10 @@ html[data-theme="dark"] .pill b,html[data-theme="dark"] .cardaction{color:var(--
 .navitem.active{background:var(--rk-primary-soft);color:var(--rk-primary-strong)}
 .navitem.done .num{background:var(--rk-success-soft);color:var(--rk-success)}
 .tip{background:var(--rk-primary-soft);color:var(--rk-primary-strong)}
-.callout{background:var(--rk-primary-soft);border-color:#C5E5DC}
+.callout{background:var(--rk-primary-soft);border-color:#BFDBFE}
 .callout.mission{background:var(--rk-warning-soft);border-color:#F0D9AC}
-html[data-theme="dark"] .callout{background:var(--rk-primary-soft);border-color:#285A5C}
-html[data-theme="dark"] .callout.mission{background:var(--rk-warning-soft);border-color:#6B5636}
+html[data-theme="dark"] .callout{background:var(--rk-primary-soft);border-color:#45658E}
+html[data-theme="dark"] .callout.mission{background:var(--rk-warning-soft);border-color:#80652D}
 .callout p{color:var(--rk-muted)}
 .example{background:var(--rk-surface-soft);border-left-color:var(--rk-primary)}
 .example b{color:var(--rk-primary-strong)}
@@ -88,7 +88,7 @@ html[data-theme="dark"] .tip{color:var(--rk-primary)}
 .callout .emoji [data-lucide]{width:21px;height:21px}
 
 /* Subtle motion: short, quiet, and disabled for reduced-motion preferences. */
-.heroart{transform-origin:center;animation:rk-float 7s ease-in-out infinite;filter:drop-shadow(0 18px 22px rgba(10,25,47,.10))}
+.heroart{transform-origin:center;animation:rk-float 7s ease-in-out infinite;filter:drop-shadow(0 18px 22px rgba(30,41,59,.10))}
 .hero{animation:rk-hero-in .55s ease-out both}
 .card{transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;animation:rk-rise .45s ease-out both}
 .card:nth-child(2){animation-delay:.06s}.card:nth-child(3){animation-delay:.12s}.card:nth-child(4){animation-delay:.18s}.card:nth-child(5){animation-delay:.24s}.card:nth-child(6){animation-delay:.30s}
@@ -128,7 +128,7 @@ body{font-size:clamp(14px,1.1vw,16px);line-height:1.6;overflow-x:hidden}
 .sectionhead p{font-size:13px}
 .pill{font-size:11px;padding:8px 13px}
 .cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.card{border-radius:19px;min-width:0;box-shadow:0 5px 18px rgba(10,25,47,.035)}
+.card{border-radius:19px;min-width:0;box-shadow:0 5px 18px rgba(30,41,59,.035)}
 .cover{height:clamp(112px,13vw,155px)}
 .cardbody{padding:17px 18px 18px}
 .tag{font-size:10px}
@@ -197,7 +197,7 @@ body{font-size:clamp(14px,1.1vw,16px);line-height:1.6;overflow-x:hidden}
   .card p{font-size:11px;line-height:1.5}
   .cardaction{font-size:10px}
   .lessonlayout{display:block;width:100%;min-height:0}
-  .lessonlayout aside{position:sticky;top:0;z-index:15;height:auto;padding:9px 12px;border:0;border-bottom:1px solid var(--rk-line);box-shadow:0 5px 18px rgba(10,25,47,.06)}
+  .lessonlayout aside{position:sticky;top:0;z-index:15;height:auto;padding:9px 12px;border:0;border-bottom:1px solid var(--rk-line);box-shadow:0 5px 18px rgba(30,41,59,.06)}
   .lessonlayout aside>small,.lessonlayout aside h3,.lessonlayout aside .tip{display:none}
   .lessonlayout nav{display:flex;gap:7px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;padding:2px 1px 5px}
   .navitem{flex:0 0 auto;white-space:nowrap;min-height:38px;padding:7px 10px}
