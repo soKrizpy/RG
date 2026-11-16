@@ -146,6 +146,6 @@ html[data-theme="dark"] .pitch-status.error{color:#ffb4a0}
 .pitch-eyebrow [data-lucide],.pitch-theme button [data-lucide],.pitch-preview-head [data-lucide],.pitch-action [data-lucide]{width:14px;height:14px;vertical-align:-3px}
 .pitch-actions .pitch-action{min-height:38px}
 .pitch-remove{display:grid;place-items:center;font-size:0}
-.pitch-remove:before{content:"";width:13px;height:13px;border:1.8px solid currentColor;border-radius:3px;transform:rotate(45deg);position:absolute}
+.pitch-remove [data-lucide]{width:15px;height:15px}
 .pitch-remove{position:relative}
 html[data-theme="dark"] .pitch-remove{background:#49342f;color:#ffab82}
