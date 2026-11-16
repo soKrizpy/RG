@@ -66,11 +66,11 @@ function doPost(e) {
     lock.waitLock(15000);
     try {
       sheet.appendRow([
-        new Date(), String(data.student).substring(0, 100), String(data.className || "").substring(0, 40),
-        String(data.title).substring(0, 150), String(data.problem).substring(0, 1000),
-        String(data.target).substring(0, 500), String(data.solution).substring(0, 1000),
-        (data.steps || []).join("\n").substring(0, 1500), (data.features || []).join("\n").substring(0, 1000),
-        String(data.message).substring(0, 1000), String(data.theme || ""), file.getUrl()
+        new Date(), safeCell_(data.student, 100), safeCell_(data.className || "", 40),
+        safeCell_(data.title, 150), safeCell_(data.problem, 1000),
+        safeCell_(data.target, 500), safeCell_(data.solution, 1000),
+        safeCell_((data.steps || []).join("\n"), 1500), safeCell_((data.features || []).join("\n"), 1000),
+        safeCell_(data.message, 1000), safeCell_(data.theme || "", 40), file.getUrl()
       ]);
     } finally {
       lock.releaseLock();
@@ -81,8 +81,13 @@ function doPost(e) {
   }
 }
 
+function safeCell_(value, maxLength) {
+  var text = String(value == null ? "" : value).substring(0, maxLength);
+  return /^[=+@\\-\\t\\r]/.test(text) ? "'" + text : text;
+}
+
 function response_(status, message) {
-  var safeMessage = JSON.stringify(message);
+  var safeMessage = JSON.stringify(message).replace(/</g, "\\u003c");
   var html = '<!doctype html><html><head><meta charset="utf-8"></head><body><script>' +
     'window.parent.postMessage({type:"ruangkarya-submission",status:' + JSON.stringify(status) +
     ',message:' + safeMessage + '},"*");' +
