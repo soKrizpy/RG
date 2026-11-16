@@ -431,3 +431,118 @@ html[data-theme="dark"]{--purple:var(--rk-primary);--lav:var(--rk-primary-soft);
 .feedback.is-success{display:block;margin-top:9px;color:var(--rk-success)}
 .feedback.is-error{display:block;margin-top:9px;color:var(--rk-alert)}
 @media(max-width:700px){.reflection textarea{min-height:76px}.reflection article{min-width:0}}
+
+
+/* =========================================================
+   RUANG KARYA — FINAL COLOR SYSTEM
+   One source of truth for light and dark themes.
+   ========================================================= */
+:root{
+  color-scheme:light;
+  --rk-bg:#F0F4F8;
+  --rk-surface:#FFFFFF;
+  --rk-surface-soft:#E7EEF5;
+  --rk-ink:#0A192F;
+  --rk-muted:#52657D;
+  --rk-line:#D5DFE9;
+  --rk-primary:#007A65;
+  --rk-primary-strong:#006653;
+  --rk-primary-soft:#DDF3ED;
+  --rk-secondary:#E5A000;
+  --rk-secondary-soft:#FFF2CC;
+  --rk-success:#16845F;
+  --rk-success-soft:#DDF4E9;
+  --rk-alert:#C43D4D;
+  --rk-alert-soft:#FCE8EB;
+  --rk-shadow:0 4px 0 #D5DFE9;
+  --ink:var(--rk-ink);
+  --muted:var(--rk-muted);
+  --line:var(--rk-line);
+  --purple:var(--rk-primary);
+  --lav:var(--rk-primary-soft);
+  --green:var(--rk-success);
+  --bg:var(--rk-bg);
+  --accent-primary:var(--rk-primary);
+  --accent-primary-hover:var(--rk-primary-strong);
+  --accent-reward:var(--rk-secondary);
+  --accent-success:var(--rk-success);
+  --accent-alert:var(--rk-alert);
+}
+html[data-theme="dark"]{
+  color-scheme:dark;
+  --rk-bg:#0A192F;
+  --rk-surface:#112240;
+  --rk-surface-soft:#17304F;
+  --rk-ink:#CCD6F6;
+  --rk-muted:#9EACCA;
+  --rk-line:#263D5D;
+  --rk-primary:#64FFDA;
+  --rk-primary-strong:#8BFFE5;
+  --rk-primary-soft:#173B4B;
+  --rk-secondary:#FFD166;
+  --rk-secondary-soft:#493D2B;
+  --rk-success:#75DDB4;
+  --rk-success-soft:#173F3D;
+  --rk-alert:#FF9AA8;
+  --rk-alert-soft:#492D3A;
+  --rk-shadow:0 4px 0 #061326;
+  --ink:var(--rk-ink);
+  --muted:var(--rk-muted);
+  --line:var(--rk-line);
+  --purple:var(--rk-primary);
+  --lav:var(--rk-primary-soft);
+  --green:var(--rk-success);
+  --bg:var(--rk-bg);
+}
+html,body{background:var(--rk-bg)!important;color:var(--rk-ink)}
+body{accent-color:var(--rk-primary)}
+.top,aside,.stats article,.card,.box,.term,.step,.checks,.work,.quiz,
+.reflection article,.loading,.pitch-shell,.pitch-section{
+  background-color:var(--rk-surface);border-color:var(--rk-line);color:var(--rk-ink)
+}
+.top{background:color-mix(in srgb,var(--rk-surface) 94%,transparent)!important}
+.hero,.lessonhero{
+  background:linear-gradient(118deg,var(--rk-primary-soft),var(--rk-bg) 68%,var(--rk-secondary-soft))!important;
+  border-color:var(--rk-line)!important;color:var(--rk-ink)
+}
+.hero p,.sectionhead p,.card p,.box p,.term p,.step p,.work>p,
+.reflection p,.lessonhero p,.example p,.intro,.callout p{color:var(--rk-muted)}
+.hero small,.sectionhead small,.kicker,.tag,.crumb a,.crumb b,
+.lesson footer,.brand span,.brand [data-lucide],.hero em,.example b,
+.pill b,.cardaction{color:var(--rk-primary)}
+.btn,.next,.quiz button,.pitch-action.primary{
+  background:var(--rk-primary)!important;color:#FFFFFF!important;
+  border-color:var(--rk-primary)!important;
+  box-shadow:0 4px 0 color-mix(in srgb,var(--rk-primary) 72%,black)!important
+}
+html[data-theme="dark"] .btn,html[data-theme="dark"] .next,
+html[data-theme="dark"] .quiz button,html[data-theme="dark"] .pitch-action.primary{
+  background:var(--rk-primary)!important;color:#0A192F!important;
+  border-color:var(--rk-primary)!important;box-shadow:0 4px 0 #061326!important
+}
+.btn:hover,.next:hover,.quiz button:hover{background:var(--rk-primary-strong)!important}
+.stats article>b,.number,.num,.step>i,.pitch-section-icon,.pitch-repeat-number{
+  background:var(--rk-primary-soft)!important;color:var(--rk-primary)!important
+}
+.pill,.theme-toggle{background:var(--rk-surface);border-color:var(--rk-line);color:var(--rk-muted)}
+.navitem{color:var(--rk-muted)}
+.navitem.active,.tip,.save,.prev,.pitch-action.secondary{
+  background:var(--rk-primary-soft);color:var(--rk-primary);border-color:var(--rk-line)
+}
+.navitem.done .num{background:var(--rk-success-soft);color:var(--rk-success)}
+.callout{background:var(--rk-primary-soft);border-color:var(--rk-line)}
+.callout.mission{background:var(--rk-secondary-soft);border-color:var(--rk-secondary)}
+.example,.field input,.field textarea,.option{
+  background:var(--rk-surface-soft);border-color:var(--rk-line);color:var(--rk-ink)
+}
+.track{background:var(--rk-line)}
+.track i{background:linear-gradient(90deg,var(--rk-primary),var(--rk-secondary))}
+.donepanel{background:linear-gradient(120deg,var(--rk-primary-soft),var(--rk-secondary-soft))}
+.controls,.lesson footer{border-color:var(--rk-line)}
+.field label,.checks label{color:var(--rk-muted)}
+.feedback.is-success{color:var(--rk-success)}
+.feedback.is-error{color:var(--rk-alert)}
+:where(a,button,input,textarea,select,[tabindex]):focus-visible{
+  outline:3px solid var(--rk-primary);outline-offset:3px
+}
+::selection{background:var(--rk-primary-soft);color:var(--rk-ink)}
