@@ -1,1 +1,21 @@
-{"title":"Petualangan Coding Scratch","sessions":[{"id":"sesi-20","number":"20","title":"Pitch Deck Game Tabungan","category":"Rancang ide project","description":"Susun ide game tabungan menjadi dua slide yang jelas dan menarik.","cover":"assets/images/pitch-deck.svg"}]}
+{
+  "title": "Petualangan Coding Scratch",
+  "sessions": [
+    {
+      "id": "sesi-19",
+      "number": "19",
+      "title": "Game Tangkap Dasar",
+      "category": "Game interaktif",
+      "description": "Buat game menangkap koin dengan keyboard, forever, if, dan touching.",
+      "cover": "assets/images/game-tangkap.svg"
+    },
+    {
+      "id": "sesi-20",
+      "number": "20",
+      "title": "Pitch Deck Game Tabungan",
+      "category": "Rancang ide project",
+      "description": "Susun ide game tabungan menjadi dua slide yang jelas dan menarik.",
+      "cover": "assets/images/pitch-deck.svg"
+    }
+  ]
+}
