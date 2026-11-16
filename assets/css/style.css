@@ -78,7 +78,7 @@ nav{display:grid;gap:5px}
 .box p{margin:5px 0;color:var(--rk-muted);font-size:12px}
 .callout{display:flex;gap:12px;margin:12px 0;padding:14px;border:1px solid var(--rk-line);border-radius:14px;background:var(--rk-primary-soft)}
 .callout.mission{background:var(--rk-warning-soft);border-color:var(--rk-warning-line)}
-.callout .emoji{display:grid;place-items:center;flex:none;width:30px;height:30px;border-radius:10px;background:var(--rk-surface);color:var(--rk-primary-text)}
+.callout-icon{display:grid;place-items:center;flex:none;width:30px;height:30px;border-radius:10px;background:var(--rk-surface);color:var(--rk-primary-text)}
 .callout h3{margin:0;font-size:13px}
 .callout p{margin:3px 0 0;color:var(--rk-muted);font-size:11px}
 .terms{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
