@@ -1,8 +1,419 @@
-{"id":"sesi-20","number":20,"title":"Pitch Deck Game Tabungan","sections":[
-{"title":"Halo, Detektif Digital!","intro":"Di sesi sebelumnya kamu belajar membuat interaksi menggunakan berbagai blok pemrograman di Scratch. Sekarang rencanakan project untuk Sesi 21–24.","blocks":[{"type":"image","src":"assets/images/pitch-deck.svg","alt":"Dua slide pitch deck","caption":"Hari ini kita menyiapkan ide game tabungan sebelum membangunnya."},{"type":"callout","tone":"mission","icon":"target","title":"Misi hari ini","text":"Buat pitch deck dua slide yang menjelaskan ide game tabungan dengan jelas dan singkat."},{"type":"text","text":"Kiko punya ide membuat game tabungan, tetapi perlu menjelaskan masalah, solusi, dan cara bermainnya."},{"type":"steps","items":[{"title":"Menentukan ide project","description":"Pilih masalah yang ingin dibantu."},{"title":"Menentukan solusi","description":"Pilih cara yang sesuai untuk membantu masalah."},{"title":"Menyusun pitch deck","description":"Buat dua slide sebagai panduan project Scratch."}]}]},
-{"title":"Kenalan dengan Pitch Deck","intro":"Pitch deck adalah beberapa slide singkat untuk menjelaskan ide project secara terstruktur. Pitch deck membantu menjelaskan masalah, solusi, pengguna, gameplay, dan pesan positif.","blocks":[{"type":"terms","items":[{"term":"Pitch Deck","icon":"book","definition":"Slide singkat untuk menjelaskan ide project."},{"term":"Problem","icon":"target","definition":"Situasi atau masalah yang ingin dibantu atau diselesaikan."},{"term":"Solution","icon":"idea","definition":"Cara project membantu mengatasi masalah."}]},{"type":"example","label":"CONTOH PROBLEM","text":"Sebagian anak kesulitan menyisihkan uang karena belum memiliki tujuan menabung yang jelas."},{"type":"example","label":"CONTOH SOLUTION","text":"Game mengajak pemain mengumpulkan koin ke celengan agar semakin dekat dengan target tabungan."},{"type":"callout","icon":"spark","title":"Project masih berupa rencana","text":"Belum perlu membuat game sekarang. Jelaskan rencana gameplay. Ide dan fitur boleh diperbaiki setelah game dibuat dan diuji pada Sesi 21–24."},{"type":"example","label":"APAKAH SOLUSINYA COCOK?","text":"Jika masalahnya anak sulit mengingat target tabungan, game balap mobil bukan solusi yang berhubungan langsung."},{"type":"quiz","id":"quiz-pitch","question":"Apa hubungan problem dan solution?","options":["Solution membantu menjawab problem yang dipilih","Solution boleh tidak berhubungan dengan problem","Problem hanya perlu menjadi judul"],"answer":0,"correctMessage":"Benar! Solusi harus terhubung dengan masalah.","tryMessage":"Ingat: solution adalah cara project membantu mengatasi problem."}]},
-{"title":"Mini Activity: Judul Game","intro":"Pilih ide game tabungan, lalu buat tiga pilihan judul. Judul yang baik memberi gambaran isi project.","blocks":[{"type":"steps","items":[{"title":"Pilih problem","description":"Tentukan masalah yang ingin dibantu."},{"title":"Tentukan solution","description":"Pilih cara yang sesuai."},{"title":"Buat tiga judul","description":"Gunakan kata yang singkat dan menarik."},{"title":"Pilih judul terbaik","description":"Periksa dengan checklist."}]},{"type":"example","label":"IDE GAME","text":"Mengumpulkan koin menuju celengan • Memilih kebutuhan atau keinginan • Menghindari barang yang diinginkan • Menyelesaikan misi menabung harian."},{"type":"checklist","id":"title-check","items":["Berhubungan dengan tema menabung.","Singkat dan mudah dibaca.","Mudah diingat.","Memberi gambaran project.","Tidak menyalin judul teman."]},{"type":"worksheet","title":"Bengkel ide judul","description":"Isian tersimpan di browser/perangkat ini.","fields":[{"id":"problem","label":"Masalah yang ingin dibantu","multiline":true,"full":true},{"id":"solution","label":"Solusi game","multiline":true,"full":true},{"id":"title1","label":"Pilihan judul 1"},{"id":"title2","label":"Pilihan judul 2"},{"id":"title3","label":"Pilihan judul 3"},{"id":"best","label":"Judul pilihanmu","full":true}]},{"type":"callout","icon":"spark","title":"AI sebagai asisten ide","text":"Guru dapat meminta AI membuat tiga pilihan judul singkat atau merapikan kalimat. Contoh prompt: “Bantu buat tiga judul singkat untuk game anak-anak tentang mengumpulkan koin menuju celengan.” Contoh: Misi Celengan Pintar, Kumpulkan Koin, Tabungan Hebat. Siswa tetap memilih judulnya sendiri."},{"type":"callout","icon":"shield","title":"Jaga informasi pribadi","text":"Jangan masukkan nama lengkap, alamat rumah, data keuangan pribadi, nomor telepon, atau kata sandi ke AI."}]},
-{"title":"Main Mission: Dua Slide","intro":"Susun pitch deck dua slide sebagai panduan project Scratch Sesi 21–24. Draft boleh diperbaiki setelah project dibuat dan diuji.","blocks":[{"type":"image","src":"assets/images/pitch-deck.svg","alt":"Contoh dua slide pitch deck"},{"type":"steps","items":[{"title":"Siapkan worksheet","description":"Tulis problem dan solution."},{"title":"Buat dua slide","description":"Gunakan template Google Slides dari guru atau dua lembar kertas."},{"title":"Tambahkan gambar","description":"Gunakan ikon atau gambar sederhana."},{"title":"Simpan dan kumpulkan","description":"Pastikan guru dapat membuka hasilnya."}]},{"type":"worksheet","title":"Worksheet pitch deck","description":"Isi bagian-bagian berikut sebelum memindahkan ide ke slide.","fields":[{"id":"deckProblem","label":"1. Problem — masalah yang ingin dibantu","multiline":true,"full":true},{"id":"target","label":"2. Target users — siapa yang akan bermain","multiline":true,"full":true},{"id":"deckSolution","label":"3. Solution — solusi project","multiline":true,"full":true},{"id":"game1","label":"4a. Gameplay — langkah 1","multiline":true,"full":true},{"id":"game2","label":"4b. Gameplay — langkah 2","multiline":true,"full":true},{"id":"game3","label":"4c. Gameplay — langkah 3","multiline":true,"full":true},{"id":"message","label":"5. Pesan positif","multiline":true,"full":true},{"id":"title","label":"Judul game","full":true}]},{"type":"pitch-preview"},{"type":"checklist","id":"deck-check","items":["Problem jelas.","Solution sesuai dengan problem.","Target pengguna ditentukan.","Gameplay direncanakan dalam tiga langkah.","Pesan positif ditulis.","Judul terbaik dipilih."]},{"type":"callout","icon":"book","title":"Jika menggunakan Google Slides","text":"Gunakan template dari guru. Simpan sebagai “Nama Siswa – Pitch Deck Game Tabungan”. Pastikan guru dapat membukanya dan kumpulkan melalui LMS/folder kelas sesuai instruksi."},{"type":"callout","icon":"pencil","title":"Jika menggunakan kertas","text":"Gunakan dua halaman atau dua kotak slide. Tulis dengan rapi dan mudah dibaca. Boleh menggambar dengan pensil atau spidol warna."}]},
-{"title":"Detektif Pitch: Periksa Kejelasan","intro":"Periksa kembali pitch deck agar orang lain dapat memahami idemu.","blocks":[{"type":"steps","items":[{"title":"Problem terlalu umum?","description":"Jelaskan siapa yang mengalami masalah."},{"title":"Solution belum cocok?","description":"Pastikan solusi menjawab problem."},{"title":"Slide terlalu penuh?","description":"Ringkas menjadi satu atau dua kalimat."},{"title":"Gameplay belum jelas?","description":"Tambahkan kontrol dan tujuan game."},{"title":"Tulisan sulit dibaca?","description":"Perbesar huruf dan gunakan gambar sederhana."},{"title":"Fitur belum pasti?","description":"Tandai sebagai rencana dan perbaiki setelah game selesai."}]},{"type":"checklist","id":"self-check","items":["Judul sesuai tema.","Problem jelas dan spesifik.","Target pengguna disebutkan.","Solution sesuai problem.","Gameplay memiliki langkah jelas.","Pesan positif ada.","Gambar membantu menjelaskan.","Pitch deck dapat dijelaskan sekitar satu menit."]}]},
-{"title":"Pitch Practice","intro":"Latih cara menjelaskan ide project selama 30–60 detik. Minta satu teman mendengarkan.","blocks":[{"type":"steps","items":[{"title":"Nama project saya adalah ...","description":"Sebutkan judul game."},{"title":"Masalah yang ingin saya bantu adalah ...","description":"Jelaskan problem."},{"title":"Solusi project saya adalah ...","description":"Jelaskan cara game membantu."},{"title":"Cara bermainnya adalah ...","description":"Ceritakan langkah bermain."},{"title":"Pesan yang ingin saya sampaikan adalah ...","description":"Sampaikan pesan positif."}]},{"type":"terms","items":[{"term":"Yang sudah jelas","icon":"spark","definition":"Minta teman menyebut bagian yang mudah dipahami."},{"term":"Yang perlu diperbaiki","icon":"pencil","definition":"Minta saran bagian yang membingungkan."}]},{"type":"callout","icon":"chat","title":"Aturan feedback","text":"Fokus pada isi slide, sampaikan dengan sopan, jelaskan bagian yang membingungkan, dan berikan saran yang bisa dilakukan."},{"type":"worksheet","title":"Catatan feedback teman","fields":[{"id":"clear","label":"Yang sudah jelas","multiline":true,"full":true},{"id":"improve","label":"Yang masih perlu diperbaiki","multiline":true,"full":true}]}]},
-{"title":"Refleksi & Misi Selesai","intro":"Kamu sudah menyusun rencana awal game tabungan. Pikirkan kembali ide dan pesan project-mu.","blocks":[{"type":"reflection","items":[{"title":"Fitur project","prompt":"Bagaimana fitur game membantu menyelesaikan masalah?"},{"title":"Pemain game","prompt":"Siapa yang akan memainkan game-mu?"},{"title":"Pesan game","prompt":"Apa yang ingin dipelajari atau dirasakan pemain?"},{"title":"Hubungan ide","prompt":"Apakah problem dan solution sudah terhubung?"},{"title":"Persiapan berikutnya","prompt":"Apa yang ingin diperbaiki sebelum mulai membuat game?"}]},{"type":"example","label":"PILIHAN PESAN POSITIF","text":"Menabung sedikit demi sedikit membantu mencapai tujuan. • Memiliki target membuat tabungan lebih terarah. • Kebutuhan dapat diprioritaskan sebelum keinginan. • Uang tidak harus langsung dihabiskan; gunakan sesuai kebutuhan dan rencana."},{"type":"callout","icon":"idea","title":"Kebutuhan dan keinginan","text":"Membeli camilan atau barang yang diinginkan bukan hal yang salah. Pertimbangkan kebutuhan, tujuan, dan uang yang tersedia sebelum memutuskan."},{"type":"checklist","id":"minimum-output","items":["Pitch deck dua slide selesai.","Slide 1 berisi judul, problem, dan target users.","Slide 2 berisi solution, gameplay, dan pesan positif.","Problem dan solution terhubung.","Pitch deck dijelaskan kepada setidaknya satu teman.","Hasil disimpan dan dikumpulkan sesuai arahan guru."]},{"type":"callout","tone":"mission","icon":"trophy","title":"Tantangan tambahan","text":"Tambahkan Slide 3: Main Features (koin tabungan, rintangan, celengan sebagai tujuan, pesan kemenangan). Lalu presentasikan kepada dua teman dan tanyakan apa yang dipahami, membingungkan, dan perlu diperbaiki."},{"type":"callout","icon":"spark","title":"Sampai ketemu di Sesi 21!","text":"Fondasi Game — saatnya mulai membangun ide menjadi project Scratch."}]}]}
+{
+  "id": "sesi-20",
+  "number": 20,
+  "title": "Pitch Deck Game Tabungan",
+  "sections": [
+    {
+      "title": "Halo, Detektif Digital!",
+      "intro": "Di sesi sebelumnya kamu belajar membuat interaksi menggunakan berbagai blok pemrograman di Scratch. Sekarang rencanakan project untuk Sesi 21–24.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/pitch-deck.svg",
+          "alt": "Dua slide pitch deck",
+          "caption": "Hari ini kita menyiapkan ide game tabungan sebelum membangunnya."
+        },
+        {
+          "type": "callout",
+          "tone": "mission",
+          "icon": "target",
+          "title": "Misi hari ini",
+          "text": "Buat pitch deck dua slide yang menjelaskan ide game tabungan dengan jelas dan singkat."
+        },
+        {
+          "type": "text",
+          "text": "Kiko punya ide membuat game tabungan, tetapi perlu menjelaskan masalah, solusi, dan cara bermainnya."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Menentukan ide project",
+              "description": "Pilih masalah yang ingin dibantu."
+            },
+            {
+              "title": "Menentukan solusi",
+              "description": "Pilih cara yang sesuai untuk membantu masalah."
+            },
+            {
+              "title": "Menyusun pitch deck",
+              "description": "Buat dua slide sebagai panduan project Scratch."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kenalan dengan Pitch Deck",
+      "intro": "Pitch deck adalah beberapa slide singkat untuk menjelaskan ide project secara terstruktur. Pitch deck membantu menjelaskan masalah, solusi, pengguna, gameplay, dan pesan positif.",
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Pitch Deck",
+              "icon": "book",
+              "definition": "Slide singkat untuk menjelaskan ide project."
+            },
+            {
+              "term": "Problem",
+              "icon": "target",
+              "definition": "Situasi atau masalah yang ingin dibantu atau diselesaikan."
+            },
+            {
+              "term": "Solution",
+              "icon": "idea",
+              "definition": "Cara project membantu mengatasi masalah."
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "label": "CONTOH PROBLEM",
+          "text": "Sebagian anak kesulitan menyisihkan uang karena belum memiliki tujuan menabung yang jelas."
+        },
+        {
+          "type": "example",
+          "label": "CONTOH SOLUTION",
+          "text": "Game mengajak pemain mengumpulkan koin ke celengan agar semakin dekat dengan target tabungan."
+        },
+        {
+          "type": "callout",
+          "icon": "spark",
+          "title": "Project masih berupa rencana",
+          "text": "Belum perlu membuat game sekarang. Jelaskan rencana gameplay. Ide dan fitur boleh diperbaiki setelah game dibuat dan diuji pada Sesi 21–24."
+        },
+        {
+          "type": "example",
+          "label": "APAKAH SOLUSINYA COCOK?",
+          "text": "Jika masalahnya anak sulit mengingat target tabungan, game balap mobil bukan solusi yang berhubungan langsung."
+        },
+        {
+          "type": "quiz",
+          "id": "quiz-pitch",
+          "question": "Apa hubungan problem dan solution?",
+          "options": [
+            "Solution membantu menjawab problem yang dipilih",
+            "Solution boleh tidak berhubungan dengan problem",
+            "Problem hanya perlu menjadi judul"
+          ],
+          "answer": 0,
+          "correctMessage": "Benar! Solusi harus terhubung dengan masalah.",
+          "tryMessage": "Ingat: solution adalah cara project membantu mengatasi problem."
+        }
+      ]
+    },
+    {
+      "title": "Mini Activity: Judul Game",
+      "intro": "Pilih ide game tabungan, lalu buat tiga pilihan judul. Judul yang baik memberi gambaran isi project.",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Pilih problem",
+              "description": "Tentukan masalah yang ingin dibantu."
+            },
+            {
+              "title": "Tentukan solution",
+              "description": "Pilih cara yang sesuai."
+            },
+            {
+              "title": "Buat tiga judul",
+              "description": "Gunakan kata yang singkat dan menarik."
+            },
+            {
+              "title": "Pilih judul terbaik",
+              "description": "Periksa dengan checklist."
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "label": "IDE GAME",
+          "text": "Mengumpulkan koin menuju celengan • Memilih kebutuhan atau keinginan • Menghindari barang yang diinginkan • Menyelesaikan misi menabung harian."
+        },
+        {
+          "type": "checklist",
+          "id": "title-check",
+          "items": [
+            "Berhubungan dengan tema menabung.",
+            "Singkat dan mudah dibaca.",
+            "Mudah diingat.",
+            "Memberi gambaran project.",
+            "Tidak menyalin judul teman."
+          ]
+        },
+        {
+          "type": "worksheet",
+          "title": "Bengkel ide judul",
+          "description": "Isian tersimpan di browser/perangkat ini.",
+          "fields": [
+            {
+              "id": "problem",
+              "label": "Masalah yang ingin dibantu",
+              "multiline": true,
+              "full": true
+            },
+            {
+              "id": "solution",
+              "label": "Solusi game",
+              "multiline": true,
+              "full": true
+            },
+            {
+              "id": "title1",
+              "label": "Pilihan judul 1"
+            },
+            {
+              "id": "title2",
+              "label": "Pilihan judul 2"
+            },
+            {
+              "id": "title3",
+              "label": "Pilihan judul 3"
+            },
+            {
+              "id": "best",
+              "label": "Judul pilihanmu",
+              "full": true
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "icon": "spark",
+          "title": "AI sebagai asisten ide",
+          "text": "Guru dapat meminta AI membuat tiga pilihan judul singkat atau merapikan kalimat. Contoh prompt: “Bantu buat tiga judul singkat untuk game anak-anak tentang mengumpulkan koin menuju celengan.” Contoh: Misi Celengan Pintar, Kumpulkan Koin, Tabungan Hebat. Siswa tetap memilih judulnya sendiri."
+        },
+        {
+          "type": "callout",
+          "icon": "shield",
+          "title": "Jaga informasi pribadi",
+          "text": "Jangan masukkan nama lengkap, alamat rumah, data keuangan pribadi, nomor telepon, atau kata sandi ke AI."
+        }
+      ]
+    },
+    {
+      "title": "Studio Pitch Deck: Rancang Ide Game",
+      "intro": "Sekarang saatnya membuat pitch deck langsung di Ruang Karya. Isi worksheet interaktif, lihat kartu presentasimu terbentuk otomatis, lalu unduh dan kumpulkan hasilnya.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/pitch-deck.svg",
+          "alt": "Ilustrasi pitch deck game tabungan",
+          "caption": "Ide game-mu akan berubah menjadi kartu presentasi yang siap dibagikan."
+        },
+        {
+          "type": "callout",
+          "tone": "mission",
+          "icon": "spark",
+          "title": "Studio Pitch Deck dibuka!",
+          "text": "Tidak perlu membuka worksheet atau Google Slides lain. Isi setiap bagian di bawah. Preview akan berubah otomatis saat kamu mengetik."
+        },
+        {
+          "type": "pitch-builder"
+        },
+        {
+          "type": "checklist",
+          "id": "deck-check",
+          "items": [
+            "Nama game dan target pemain sudah jelas.",
+            "Problem menjelaskan masalah yang ingin dibantu.",
+            "Solution berhubungan dengan problem.",
+            "Gameplay memiliki langkah yang bisa dipahami.",
+            "Fitur game dan pesan positif sudah ditambahkan.",
+            "Preview sudah diperiksa dan hasil PNG berhasil diunduh.",
+            "Tugas sudah dikirim melalui tombol Kirim Tugas."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Detektif Pitch: Periksa Kejelasan",
+      "intro": "Periksa kembali pitch deck agar orang lain dapat memahami idemu.",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Problem terlalu umum?",
+              "description": "Jelaskan siapa yang mengalami masalah."
+            },
+            {
+              "title": "Solution belum cocok?",
+              "description": "Pastikan solusi menjawab problem."
+            },
+            {
+              "title": "Slide terlalu penuh?",
+              "description": "Ringkas menjadi satu atau dua kalimat."
+            },
+            {
+              "title": "Gameplay belum jelas?",
+              "description": "Tambahkan kontrol dan tujuan game."
+            },
+            {
+              "title": "Tulisan sulit dibaca?",
+              "description": "Perbesar huruf dan gunakan gambar sederhana."
+            },
+            {
+              "title": "Fitur belum pasti?",
+              "description": "Tandai sebagai rencana dan perbaiki setelah game selesai."
+            }
+          ]
+        },
+        {
+          "type": "checklist",
+          "id": "self-check",
+          "items": [
+            "Judul sesuai tema.",
+            "Problem jelas dan spesifik.",
+            "Target pengguna disebutkan.",
+            "Solution sesuai problem.",
+            "Gameplay memiliki langkah jelas.",
+            "Pesan positif ada.",
+            "Gambar membantu menjelaskan.",
+            "Pitch deck dapat dijelaskan sekitar satu menit."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pitch Practice",
+      "intro": "Latih cara menjelaskan ide project selama 30–60 detik. Minta satu teman mendengarkan.",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Nama project saya adalah ...",
+              "description": "Sebutkan judul game."
+            },
+            {
+              "title": "Masalah yang ingin saya bantu adalah ...",
+              "description": "Jelaskan problem."
+            },
+            {
+              "title": "Solusi project saya adalah ...",
+              "description": "Jelaskan cara game membantu."
+            },
+            {
+              "title": "Cara bermainnya adalah ...",
+              "description": "Ceritakan langkah bermain."
+            },
+            {
+              "title": "Pesan yang ingin saya sampaikan adalah ...",
+              "description": "Sampaikan pesan positif."
+            }
+          ]
+        },
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Yang sudah jelas",
+              "icon": "spark",
+              "definition": "Minta teman menyebut bagian yang mudah dipahami."
+            },
+            {
+              "term": "Yang perlu diperbaiki",
+              "icon": "pencil",
+              "definition": "Minta saran bagian yang membingungkan."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "icon": "chat",
+          "title": "Aturan feedback",
+          "text": "Fokus pada isi slide, sampaikan dengan sopan, jelaskan bagian yang membingungkan, dan berikan saran yang bisa dilakukan."
+        },
+        {
+          "type": "worksheet",
+          "title": "Catatan feedback teman",
+          "fields": [
+            {
+              "id": "clear",
+              "label": "Yang sudah jelas",
+              "multiline": true,
+              "full": true
+            },
+            {
+              "id": "improve",
+              "label": "Yang masih perlu diperbaiki",
+              "multiline": true,
+              "full": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Refleksi & Misi Selesai",
+      "intro": "Kamu sudah menyusun rencana awal game tabungan. Pikirkan kembali ide dan pesan project-mu.",
+      "blocks": [
+        {
+          "type": "reflection",
+          "items": [
+            {
+              "title": "Fitur project",
+              "prompt": "Bagaimana fitur game membantu menyelesaikan masalah?"
+            },
+            {
+              "title": "Pemain game",
+              "prompt": "Siapa yang akan memainkan game-mu?"
+            },
+            {
+              "title": "Pesan game",
+              "prompt": "Apa yang ingin dipelajari atau dirasakan pemain?"
+            },
+            {
+              "title": "Hubungan ide",
+              "prompt": "Apakah problem dan solution sudah terhubung?"
+            },
+            {
+              "title": "Persiapan berikutnya",
+              "prompt": "Apa yang ingin diperbaiki sebelum mulai membuat game?"
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "label": "PILIHAN PESAN POSITIF",
+          "text": "Menabung sedikit demi sedikit membantu mencapai tujuan. • Memiliki target membuat tabungan lebih terarah. • Kebutuhan dapat diprioritaskan sebelum keinginan. • Uang tidak harus langsung dihabiskan; gunakan sesuai kebutuhan dan rencana."
+        },
+        {
+          "type": "callout",
+          "icon": "idea",
+          "title": "Kebutuhan dan keinginan",
+          "text": "Membeli camilan atau barang yang diinginkan bukan hal yang salah. Pertimbangkan kebutuhan, tujuan, dan uang yang tersedia sebelum memutuskan."
+        },
+        {
+          "type": "checklist",
+          "id": "minimum-output",
+          "items": [
+            "Pitch deck dua slide selesai.",
+            "Slide 1 berisi judul, problem, dan target users.",
+            "Slide 2 berisi solution, gameplay, dan pesan positif.",
+            "Problem dan solution terhubung.",
+            "Pitch deck dijelaskan kepada setidaknya satu teman.",
+            "Hasil disimpan dan dikumpulkan sesuai arahan guru."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "mission",
+          "icon": "trophy",
+          "title": "Tantangan tambahan",
+          "text": "Tambahkan Slide 3: Main Features (koin tabungan, rintangan, celengan sebagai tujuan, pesan kemenangan). Lalu presentasikan kepada dua teman dan tanyakan apa yang dipahami, membingungkan, dan perlu diperbaiki."
+        },
+        {
+          "type": "callout",
+          "icon": "spark",
+          "title": "Sampai ketemu di Sesi 21!",
+          "text": "Fondasi Game — saatnya mulai membangun ide menjadi project Scratch."
+        }
+      ]
+    }
+  ]
+}
