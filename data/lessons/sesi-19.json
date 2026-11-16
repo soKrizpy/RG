@@ -1,0 +1,447 @@
+{
+  "id": "sesi-19",
+  "number": 19,
+  "title": "Game Tangkap Dasar",
+  "sections": [
+    {
+      "title": "Halo, Detektif Digital!",
+      "intro": "Kiko ingin membuat game tangkap koin. Koin bergerak dari atas ke bawah, sedangkan mangkuk bergerak ke kiri dan kanan untuk menangkapnya.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/game-tangkap.svg",
+          "alt": "Game Scratch dengan koin jatuh dan mangkuk penangkap",
+          "caption": "Misi kita: tangkap koin sebelum jatuh melewati Stage!"
+        },
+        {
+          "type": "callout",
+          "tone": "mission",
+          "icon": "target",
+          "title": "Misi hari ini",
+          "text": "Buat prototipe game tangkap koin menggunakan forever, if, dan touching. Koin harus terus jatuh, dapat ditangkap, lalu kembali ke atas."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Gerakkan mangkuk",
+              "description": "Gunakan tombol panah kiri dan kanan."
+            },
+            {
+              "title": "Jatuhkan koin",
+              "description": "Gunakan forever agar koin terus bergerak turun."
+            },
+            {
+              "title": "Deteksi dan ulangi",
+              "description": "Gunakan touching dan if untuk menangkap koin, lalu kembalikan ke atas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Konsep Coding Hari Ini",
+      "intro": "Game mechanic adalah aturan yang menentukan bagaimana objek dan pemain berinteraksi. Hari ini kita menggabungkan beberapa blok untuk membuat aturan tangkap koin.",
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Forever",
+              "icon": "repeat",
+              "definition": "Mengulang semua blok di dalamnya selama project berjalan."
+            },
+            {
+              "term": "If",
+              "icon": "target",
+              "definition": "Memeriksa kondisi. Perintah di dalamnya berjalan jika kondisi benar."
+            },
+            {
+              "term": "Touching",
+              "icon": "spark",
+              "definition": "Mendeteksi apakah satu sprite sedang menyentuh sprite lain."
+            },
+            {
+              "term": "Pick random",
+              "icon": "idea",
+              "definition": "Memilih angka acak, misalnya posisi x dari -200 sampai 200."
+            },
+            {
+              "term": "Hide / Show",
+              "icon": "eye",
+              "definition": "Menyembunyikan sprite sementara dan menampilkannya kembali."
+            },
+            {
+              "term": "Y position",
+              "icon": "move",
+              "definition": "Membaca posisi vertikal sprite pada Stage."
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "label": "BAGAIMANA BLOK-BLOK BEKERJA BERSAMA?",
+          "text": "Green Flag memulai project → forever menggerakkan koin turun → if memeriksa touching mangkuk atau posisi koin → koin kembali ke atas dan permainan berlanjut."
+        },
+        {
+          "type": "callout",
+          "icon": "spark",
+          "title": "Ingat!",
+          "text": "Touching perlu diperiksa berulang kali. Karena itu, letakkan if touching di dalam forever agar Scratch terus memeriksa sentuhan."
+        },
+        {
+          "type": "quiz",
+          "id": "quiz-touching",
+          "question": "Mengapa pemeriksaan touching diletakkan di dalam forever?",
+          "options": [
+            "Agar Scratch memeriksa sentuhan terus-menerus",
+            "Agar koin hanya jatuh satu kali",
+            "Agar mangkuk menghilang"
+          ],
+          "answer": 0,
+          "correctMessage": "Betul! Scratch perlu memeriksa sentuhan berulang kali selama game berjalan.",
+          "tryMessage": "Coba ingat fungsi forever: mengulang perintah selama project berjalan."
+        }
+      ]
+    },
+    {
+      "title": "If Touching dalam Kehidupan Sehari-hari",
+      "intro": "Sensor pada benda di sekitar kita juga bekerja dengan memeriksa kondisi, lalu menjalankan aksi tertentu.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/learning-world.svg",
+          "alt": "Kiko belajar coding di depan komputer",
+          "caption": "Kita bisa membuat aturan interaktif seperti pada benda-benda di sekitar."
+        },
+        {
+          "type": "example",
+          "label": "CONTOH ATURAN",
+          "text": "Pintu otomatis terbuka saat seseorang mendekat. Lampu menyala saat sakelar ditekan. Sensor parkir berbunyi saat mobil terlalu dekat dengan penghalang."
+        },
+        {
+          "type": "callout",
+          "icon": "idea",
+          "title": "Hubungkan dengan Scratch",
+          "text": "Jika koin menyentuh mangkuk, Scratch menjalankan aksi. Misalnya menyembunyikan koin sebentar, memindahkannya ke atas, lalu menampilkannya kembali."
+        }
+      ]
+    },
+    {
+      "title": "Aktivitas Mini: Apa Aturan Gamenya?",
+      "intro": "Sebelum coding, pikirkan aksi yang harus dilakukan saat suatu kondisi terjadi.",
+      "blocks": [
+        {
+          "type": "worksheet",
+          "title": "Rancang aturan game",
+          "description": "Lengkapi aksi yang harus dilakukan pada setiap kondisi.",
+          "fields": [
+            {
+              "id": "right-rule",
+              "label": "Jika tombol panah kanan ditekan, maka...",
+              "multiline": true,
+              "full": true
+            },
+            {
+              "id": "left-rule",
+              "label": "Jika tombol panah kiri ditekan, maka...",
+              "multiline": true,
+              "full": true
+            },
+            {
+              "id": "catch-rule",
+              "label": "Jika koin menyentuh mangkuk, maka...",
+              "multiline": true,
+              "full": true
+            },
+            {
+              "id": "miss-rule",
+              "label": "Jika koin mencapai bagian bawah Stage, maka...",
+              "multiline": true,
+              "full": true
+            }
+          ]
+        },
+        {
+          "type": "reflection",
+          "items": [
+            {
+              "title": "Mengapa koin kembali ke atas?",
+              "prompt": "Mengapa koin perlu kembali ke atas setelah tertangkap?"
+            },
+            {
+              "title": "Jika koin terlewat",
+              "prompt": "Mengapa koin juga harus kembali ke atas ketika terlewat?"
+            },
+            {
+              "title": "Tanpa aturan",
+              "prompt": "Apa yang terjadi jika aturan tersebut tidak dibuat?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Persiapan Project",
+      "intro": "Siapkan starter file dari guru, lalu periksa posisi awal kedua sprite sebelum mulai membuat script.",
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Mangkuk",
+              "icon": "target",
+              "definition": "1 sprite di bagian bawah Stage. Posisi awal: x 0, y -145."
+            },
+            {
+              "term": "Koin",
+              "icon": "spark",
+              "definition": "1 sprite di bagian atas Stage. Posisi awal: y 170 dan x acak."
+            },
+            {
+              "term": "Backdrop",
+              "icon": "image",
+              "definition": "Backdrop sederhana bertema permainan dari starter file."
+            }
+          ]
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Buka Scratch",
+              "description": "Pilih File → Load from your computer, lalu pilih starter file dari guru."
+            },
+            {
+              "title": "Periksa sprite",
+              "description": "Pastikan sprite Mangkuk dan Koin tersedia."
+            },
+            {
+              "title": "Periksa posisi",
+              "description": "Mangkuk berada di bawah; Koin berada di bagian atas Stage."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "icon": "idea",
+          "title": "Tips posisi awal",
+          "text": "Mangkuk: x 0, y -145. Koin: x pick random -200 to 200, y 170. Posisi acak membuat koin muncul dari tempat berbeda."
+        }
+      ]
+    },
+    {
+      "title": "Misi Utama: Game Tangkap Dasar",
+      "intro": "Ikuti bagian A sampai D secara berurutan. Setelah setiap bagian, jalankan Green Flag dan periksa hasilnya.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/game-tangkap.svg",
+          "alt": "Ilustrasi target game tangkap koin"
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "A — Gerakkan Mangkuk",
+              "description": "Pada sprite Mangkuk: when green flag clicked → show → go to x: 0 y: -145. Buat script when right arrow key pressed → change x by 15. Buat script when left arrow key pressed → change x by -15."
+            },
+            {
+              "title": "Uji Coba 1",
+              "description": "Klik Green Flag. Tekan tombol ← dan →. Pastikan mangkuk bergerak ke dua arah dan kembali ke posisi awal saat project dimulai."
+            },
+            {
+              "title": "B — Buat Koin Jatuh",
+              "description": "Pada sprite Koin: when green flag clicked → show → go to x: pick random -200 to 200, y: 170. Tambahkan forever → change y by -5 → wait 0.05 seconds."
+            },
+            {
+              "title": "Uji Coba 2",
+              "description": "Klik Green Flag. Pastikan koin muncul dari atas dan bergerak turun terus-menerus."
+            },
+            {
+              "title": "C — Kembalikan Koin yang Terlewat",
+              "description": "Di dalam forever, tambahkan if (y position < -170) then → go to x: pick random -200 to 200, y: 170. Dengan begitu, koin kembali ke atas saat melewati batas bawah."
+            },
+            {
+              "title": "Uji Coba 3",
+              "description": "Biarkan koin melewati bagian bawah Stage. Pastikan koin muncul lagi di atas dengan posisi x yang berubah-ubah."
+            },
+            {
+              "title": "D — Deteksi Koin Tertangkap",
+              "description": "Masih di dalam forever, tambahkan if touching [Mangkuk]? then → hide → go to x: pick random -200 to 200, y: 170 → show. Koin akan kembali ke atas setelah menyentuh mangkuk."
+            },
+            {
+              "title": "Uji Coba 4",
+              "description": "Gerakkan mangkuk dengan tombol panah. Tangkap koin beberapa kali dan pastikan permainan terus berjalan."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "icon": "spark",
+          "title": "Opsional: efek suara",
+          "text": "Tambahkan start sound sebelum hide di dalam if touching. Pilih suara yang sesuai agar tangkapan terasa lebih seru."
+        },
+        {
+          "type": "quiz",
+          "id": "quiz-reset",
+          "question": "Apa yang perlu dilakukan setelah koin dipindahkan ke atas menggunakan hide?",
+          "options": [
+            "Menghapus sprite dari project",
+            "Menggunakan show agar koin terlihat kembali",
+            "Menghentikan semua script"
+          ],
+          "answer": 1,
+          "correctMessage": "Benar! Hide hanya menyembunyikan sprite. Show membuat koin terlihat lagi.",
+          "tryMessage": "Ingat, hide tidak menghapus sprite. Koin perlu ditampilkan kembali dengan show."
+        }
+      ]
+    },
+    {
+      "title": "Detektif Kode: Testing & Perbaikan",
+      "intro": "Jika project belum berjalan sesuai rencana, periksa kemungkinan penyebab berikut.",
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Mangkuk tidak bergerak",
+              "icon": "move",
+              "definition": "Periksa event tombol panah dan nilai change x: kanan 15, kiri -15."
+            },
+            {
+              "term": "Koin tidak jatuh",
+              "icon": "spark",
+              "definition": "Pastikan change y by bernilai negatif, misalnya -5, dan berada di dalam forever."
+            },
+            {
+              "term": "Koin tidak kembali",
+              "icon": "repeat",
+              "definition": "Pastikan if y position < -170 berada di dalam forever."
+            },
+            {
+              "term": "Koin tidak tertangkap",
+              "icon": "target",
+              "definition": "Periksa touching [Mangkuk]? dan pastikan if berada di dalam forever."
+            },
+            {
+              "term": "Koin hilang selamanya",
+              "icon": "eye",
+              "definition": "Tambahkan show setelah go to agar koin terlihat kembali."
+            },
+            {
+              "term": "Koin selalu muncul di tempat sama",
+              "icon": "idea",
+              "definition": "Gunakan pick random -200 to 200 untuk posisi x."
+            }
+          ]
+        },
+        {
+          "type": "checklist",
+          "id": "testing-check",
+          "items": [
+            "Tangkap koin tepat di tengah mangkuk.",
+            "Tangkap koin di sisi kiri mangkuk.",
+            "Tangkap koin di sisi kanan mangkuk.",
+            "Biarkan koin terlewat dari bawah Stage.",
+            "Pastikan posisi koin berubah secara acak.",
+            "Klik Green Flag lagi dan periksa reset posisi awal."
+          ]
+        },
+        {
+          "type": "callout",
+          "icon": "idea",
+          "title": "Tips ukuran sprite",
+          "text": "Touching mengikuti bentuk dan ukuran costume. Jika deteksi terasa kurang tepat, coba ubah ukuran sprite atau rapikan costume."
+        }
+      ]
+    },
+    {
+      "title": "Output Minimum & Refleksi",
+      "intro": "Pastikan semua bagian utama sudah bekerja sebelum menyimpan dan membagikan project.",
+      "blocks": [
+        {
+          "type": "checklist",
+          "id": "mission-output",
+          "items": [
+            "Mangkuk bergerak ke kiri dan kanan menggunakan keyboard.",
+            "Koin jatuh menggunakan forever.",
+            "If dan touching mendeteksi saat koin menyentuh mangkuk.",
+            "Koin kembali ke atas setelah tertangkap.",
+            "Koin kembali ke atas jika melewati batas bawah Stage.",
+            "Project tetap berjalan setelah minimal tiga kali tangkapan.",
+            "Green Flag menjalankan ulang project dengan benar."
+          ]
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Beri nama project",
+              "description": "Ganti nama “Untitled” dengan nama project-mu."
+            },
+            {
+              "title": "Simpan project",
+              "description": "Pilih File → Save, atau pastikan project tersimpan jika kamu sudah login."
+            },
+            {
+              "title": "Bagikan jika diminta",
+              "description": "Klik Share, salin link project, lalu kirim kepada guru sesuai instruksi."
+            }
+          ]
+        },
+        {
+          "type": "reflection",
+          "items": [
+            {
+              "title": "Forever dan touching",
+              "prompt": "Mengapa touching harus diperiksa di dalam forever?"
+            },
+            {
+              "title": "Hide dan show",
+              "prompt": "Apa yang terjadi jika menggunakan hide tanpa show?"
+            },
+            {
+              "title": "Dua jenis reset",
+              "prompt": "Apa perbedaan reset karena koin tertangkap dan karena koin terlewat?"
+            },
+            {
+              "title": "Tingkat kesulitan",
+              "prompt": "Bagaimana nilai change y by memengaruhi tingkat kesulitan game?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Misi Bonus",
+      "intro": "Jika game sudah berjalan dengan baik, pilih tantangan tambahan untuk membuatnya lebih menarik.",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Challenge 1",
+              "description": "Tambahkan suara saat koin tertangkap menggunakan start sound."
+            },
+            {
+              "title": "Challenge 2",
+              "description": "Buat backdrop permainanmu sendiri."
+            },
+            {
+              "title": "Challenge 3",
+              "description": "Ubah kecepatan jatuh koin dengan mencoba nilai change y by atau wait yang berbeda."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "mission",
+          "icon": "trophy",
+          "title": "Misi selesai!",
+          "text": "Hebat! Kamu sudah membuat game interaktif dengan keyboard, perulangan, kondisi, dan deteksi sentuhan. Sampai ketemu di Sesi 20: Pitch Deck Game Tabungan."
+        }
+      ]
+    }
+  ]
+}
