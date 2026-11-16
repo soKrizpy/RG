@@ -433,28 +433,35 @@ html[data-theme="dark"]{--purple:var(--rk-primary);--lav:var(--rk-primary-soft);
 @media(max-width:700px){.reflection textarea{min-height:76px}.reflection article{min-width:0}}
 
 
+
+
 /* =========================================================
-   RUANG KARYA — FINAL COLOR SYSTEM
-   One source of truth for light and dark themes.
+   RUANG KARYA — APPROVED BLUE PALETTE
+   Single source of truth; light/dark values follow the
+   palette previously specified for this project.
    ========================================================= */
 :root{
   color-scheme:light;
-  --rk-bg:#F0F4F8;
+  --rk-bg:#F6F9FC;
   --rk-surface:#FFFFFF;
-  --rk-surface-soft:#E7EEF5;
-  --rk-ink:#0A192F;
-  --rk-muted:#52657D;
-  --rk-line:#D5DFE9;
-  --rk-primary:#007A65;
-  --rk-primary-strong:#006653;
-  --rk-primary-soft:#DDF3ED;
-  --rk-secondary:#E5A000;
-  --rk-secondary-soft:#FFF2CC;
-  --rk-success:#16845F;
-  --rk-success-soft:#DDF4E9;
-  --rk-alert:#C43D4D;
-  --rk-alert-soft:#FCE8EB;
-  --rk-shadow:0 4px 0 #D5DFE9;
+  --rk-surface-soft:#EBF1F8;
+  --rk-ink:#1E293B;
+  --rk-muted:#475569;
+  --rk-line:#CBD5E1;
+  --rk-primary:#2563EB;
+  --rk-primary-strong:#1D4ED8;
+  --rk-primary-soft:#DBEAFE;
+  --rk-secondary:#F59E0B;
+  --rk-secondary-soft:#FEF3C7;
+  --rk-success:#10B981;
+  --rk-success-soft:#D1FAE5;
+  --rk-success-text:#047857;
+  --rk-alert:#EF4444;
+  --rk-alert-soft:#FEE2E2;
+  --rk-alert-text:#B91C1C;
+  --rk-secondary-text:#92400E;
+  --rk-muted-on-accent:#475569;
+  --rk-shadow:0 4px 0 #CBD5E1;
   --ink:var(--rk-ink);
   --muted:var(--rk-muted);
   --line:var(--rk-line);
@@ -470,22 +477,26 @@ html[data-theme="dark"]{--purple:var(--rk-primary);--lav:var(--rk-primary-soft);
 }
 html[data-theme="dark"]{
   color-scheme:dark;
-  --rk-bg:#0A192F;
-  --rk-surface:#112240;
-  --rk-surface-soft:#17304F;
-  --rk-ink:#CCD6F6;
-  --rk-muted:#9EACCA;
-  --rk-line:#263D5D;
-  --rk-primary:#64FFDA;
-  --rk-primary-strong:#8BFFE5;
-  --rk-primary-soft:#173B4B;
-  --rk-secondary:#FFD166;
-  --rk-secondary-soft:#493D2B;
-  --rk-success:#75DDB4;
-  --rk-success-soft:#173F3D;
-  --rk-alert:#FF9AA8;
-  --rk-alert-soft:#492D3A;
-  --rk-shadow:0 4px 0 #061326;
+  --rk-bg:#0F172A;
+  --rk-surface:#1E293B;
+  --rk-surface-soft:#283548;
+  --rk-ink:#F8FAFC;
+  --rk-muted:#94A3B8;
+  --rk-line:#334155;
+  --rk-primary:#60A5FA;
+  --rk-primary-strong:#93C5FD;
+  --rk-primary-soft:#1E3A5F;
+  --rk-secondary:#FBBF24;
+  --rk-secondary-soft:#4A3A18;
+  --rk-success:#34D399;
+  --rk-success-soft:#123D35;
+  --rk-success-text:#34D399;
+  --rk-alert:#F87171;
+  --rk-alert-soft:#492D36;
+  --rk-alert-text:#FDA4AF;
+  --rk-secondary-text:#FBBF24;
+  --rk-muted-on-accent:#CBD5E1;
+  --rk-shadow:0 4px 0 #090D16;
   --ink:var(--rk-ink);
   --muted:var(--rk-muted);
   --line:var(--rk-line);
@@ -502,14 +513,14 @@ body{accent-color:var(--rk-primary)}
 }
 .top{background:color-mix(in srgb,var(--rk-surface) 94%,transparent)!important}
 .hero,.lessonhero{
-  background:linear-gradient(118deg,var(--rk-primary-soft),var(--rk-bg) 68%,var(--rk-secondary-soft))!important;
+  background:linear-gradient(118deg,#EAF2FF 0%,var(--rk-bg) 66%,#FFF4D8 100%)!important;
   border-color:var(--rk-line)!important;color:var(--rk-ink)
 }
 .hero p,.sectionhead p,.card p,.box p,.term p,.step p,.work>p,
-.reflection p,.lessonhero p,.example p,.intro,.callout p{color:var(--rk-muted)}
+.reflection p,.lessonhero p,.example p,.intro{color:var(--rk-muted)}
 .hero small,.sectionhead small,.kicker,.tag,.crumb a,.crumb b,
 .lesson footer,.brand span,.brand [data-lucide],.hero em,.example b,
-.pill b,.cardaction{color:var(--rk-primary)}
+.pill b,.cardaction{color:var(--rk-primary-strong)}
 .btn,.next,.quiz button,.pitch-action.primary{
   background:var(--rk-primary)!important;color:#FFFFFF!important;
   border-color:var(--rk-primary)!important;
@@ -517,21 +528,22 @@ body{accent-color:var(--rk-primary)}
 }
 html[data-theme="dark"] .btn,html[data-theme="dark"] .next,
 html[data-theme="dark"] .quiz button,html[data-theme="dark"] .pitch-action.primary{
-  background:var(--rk-primary)!important;color:#0A192F!important;
-  border-color:var(--rk-primary)!important;box-shadow:0 4px 0 #061326!important
+  background:var(--rk-primary)!important;color:#0F172A!important;
+  border-color:var(--rk-primary)!important;box-shadow:0 4px 0 #090D16!important
 }
 .btn:hover,.next:hover,.quiz button:hover{background:var(--rk-primary-strong)!important}
 .stats article>b,.number,.num,.step>i,.pitch-section-icon,.pitch-repeat-number{
-  background:var(--rk-primary-soft)!important;color:var(--rk-primary)!important
+  background:var(--rk-primary-soft)!important;color:var(--rk-primary-strong)!important
 }
 .pill,.theme-toggle{background:var(--rk-surface);border-color:var(--rk-line);color:var(--rk-muted)}
 .navitem{color:var(--rk-muted)}
 .navitem.active,.tip,.save,.prev,.pitch-action.secondary{
-  background:var(--rk-primary-soft);color:var(--rk-primary);border-color:var(--rk-line)
+  background:var(--rk-primary-soft);color:var(--rk-primary-strong);border-color:var(--rk-line)
 }
-.navitem.done .num{background:var(--rk-success-soft);color:var(--rk-success)}
+.navitem.done .num{background:var(--rk-success-soft);color:var(--rk-success-text)}
 .callout{background:var(--rk-primary-soft);border-color:var(--rk-line)}
 .callout.mission{background:var(--rk-secondary-soft);border-color:var(--rk-secondary)}
+html[data-theme="dark"] .callout p{color:var(--rk-muted-on-accent)}
 .example,.field input,.field textarea,.option{
   background:var(--rk-surface-soft);border-color:var(--rk-line);color:var(--rk-ink)
 }
@@ -540,8 +552,8 @@ html[data-theme="dark"] .quiz button,html[data-theme="dark"] .pitch-action.prima
 .donepanel{background:linear-gradient(120deg,var(--rk-primary-soft),var(--rk-secondary-soft))}
 .controls,.lesson footer{border-color:var(--rk-line)}
 .field label,.checks label{color:var(--rk-muted)}
-.feedback.is-success{color:var(--rk-success)}
-.feedback.is-error{color:var(--rk-alert)}
+.status-success,.is-success,.feedback.is-success{color:var(--rk-success-text)!important}
+.status-error,.is-error,.feedback.is-error{color:var(--rk-alert-text)!important}
 :where(a,button,input,textarea,select,[tabindex]):focus-visible{
   outline:3px solid var(--rk-primary);outline-offset:3px
 }
