@@ -316,3 +316,46 @@ html[data-theme="dark"] .pitch-action.primary{color:#0A192F!important}
 .pitch-status.error{background:var(--rk-alert-soft)!important;color:var(--rk-alert)!important}
 .pitch-status.info{background:var(--rk-primary-soft)!important;color:var(--rk-primary)!important}
 .pitch-student{border-color:var(--rk-line)!important}
+
+/* Final Pitch Deck palette lock — use shared approved tokens. */
+.pitch-builder{
+  --pd-ink:var(--rk-ink);--pd-muted:var(--rk-muted);--pd-line:var(--rk-line);
+  --pd-paper:var(--rk-surface);--pd-bg:var(--rk-bg);--pd-purple:var(--rk-primary);
+  color:var(--rk-ink)
+}
+.pitch-shell,.pitch-content,.pitch-section{
+  background:var(--rk-surface)!important;border-color:var(--rk-line)!important;color:var(--rk-ink)
+}
+.pitch-top{
+  background:linear-gradient(118deg,#EAF2FF 0%,var(--rk-bg) 66%,#FFF4D8 100%)!important
+}
+.pitch-eyebrow,.pitch-progress span:first-child{color:var(--rk-primary-strong)!important}
+.pitch-top h3,.pitch-section-head h4,.pitch-preview-head strong{color:var(--rk-ink)!important}
+.pitch-top p,.pitch-section-head p,.pitch-field label,.pitch-theme span,.pitch-note{color:var(--rk-muted)!important}
+.pitch-progress span{background:color-mix(in srgb,var(--rk-primary) 18%,transparent)!important}
+.pitch-progress span:first-child{background:var(--rk-primary)!important}
+.pitch-section-icon,.pitch-repeat-number,.pitch-add{
+  background:var(--rk-primary-soft)!important;color:var(--rk-primary-strong)!important;border-color:var(--rk-line)!important
+}
+.pitch-field input,.pitch-field textarea,.pitch-repeat-row input{
+  background:var(--rk-surface-soft)!important;border-color:var(--rk-line)!important;color:var(--rk-ink)!important
+}
+.pitch-field input::placeholder,.pitch-field textarea::placeholder{color:var(--rk-muted)!important}
+.pitch-field input:focus,.pitch-field textarea:focus{
+  border-color:var(--rk-primary)!important;box-shadow:0 0 0 3px color-mix(in srgb,var(--rk-primary) 18%,transparent)!important
+}
+.pitch-preview{background:var(--rk-bg)!important;border-color:var(--rk-line)!important}
+.pitch-theme button{background:var(--rk-surface)!important;border-color:var(--rk-line)!important;color:var(--rk-muted)!important}
+.pitch-theme button[aria-pressed="true"]{
+  background:var(--rk-primary-soft)!important;border-color:var(--rk-primary)!important;color:var(--rk-primary-strong)!important
+}
+.pitch-action.primary{background:var(--rk-primary)!important;color:#fff!important;box-shadow:0 4px 0 #1D4ED8!important}
+html[data-theme="dark"] .pitch-action.primary{color:#0F172A!important;box-shadow:0 4px 0 #090D16!important}
+.pitch-action.secondary{background:var(--rk-primary-soft)!important;color:var(--rk-primary-strong)!important}
+.pitch-action.submit{background:var(--rk-success)!important;color:#052E24!important}
+.pitch-live{background:var(--rk-success-soft)!important;color:var(--rk-success-text)!important}
+.pitch-remove{background:var(--rk-alert-soft)!important;color:var(--rk-alert-text)!important}
+.pitch-status.ok{background:var(--rk-success-soft)!important;color:var(--rk-success-text)!important}
+.pitch-status.error{background:var(--rk-alert-soft)!important;color:var(--rk-alert-text)!important}
+.pitch-status.info{background:var(--rk-primary-soft)!important;color:var(--rk-primary-strong)!important}
+.pitch-student{border-color:var(--rk-line)!important}
