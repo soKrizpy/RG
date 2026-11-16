@@ -1,0 +1,350 @@
+{
+  "id": "sesi-1",
+  "number": 1,
+  "title": "Kartu Nama Interaktif",
+  "sections": [
+    {
+      "title": "Halo, Petualang Coding!",
+      "intro": "Kiko menemukan papan nama yang masih kosong. Yuk, ubah menjadi kartu nama digital yang bisa menyapa, bergerak, dan berganti tampilan!",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/learning-world.svg",
+          "alt": "Ilustrasi ruang belajar coding",
+          "caption": "Hari ini kita membuat kartu nama interaktif pertama di Scratch."
+        },
+        {
+          "type": "callout",
+          "tone": "mission",
+          "icon": "target",
+          "title": "Misi hari ini",
+          "text": "Buat satu Sprite yang menyapa dengan nama panggilan dan hobi, bergerak, lalu berganti costume saat Green Flag diklik."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Kenali panggung",
+              "description": "Lihat Stage, Sprite, Blocks Palette, dan Code Area."
+            },
+            {
+              "title": "Susun perintah",
+              "description": "Gunakan when green flag clicked, say, wait, move, dan next costume."
+            },
+            {
+              "title": "Jalankan karyamu",
+              "description": "Klik Green Flag, amati hasilnya, lalu perbaiki jika ada yang belum sesuai."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "icon": "shield",
+          "title": "Kenalan dengan aman",
+          "text": "Gunakan nama panggilan saja. Jangan tulis nama lengkap, alamat rumah, nomor telepon, atau nama sekolah pada kartu nama digital."
+        }
+      ]
+    },
+    {
+      "title": "Kenalan dengan Scratch",
+      "intro": "Scratch adalah tempat kita membuat cerita, animasi, dan game dengan menyusun blok perintah seperti puzzle.",
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Sprite",
+              "icon": "user-round",
+              "definition": "Karakter atau objek yang menjalankan perintah."
+            },
+            {
+              "term": "Stage",
+              "icon": "monitor",
+              "definition": "Panggung tempat Sprite tampil dan bergerak."
+            },
+            {
+              "term": "Backdrop",
+              "icon": "image",
+              "definition": "Gambar latar di belakang Sprite."
+            },
+            {
+              "term": "Blocks Palette",
+              "icon": "blocks",
+              "definition": "Kumpulan blok perintah yang bisa dipilih."
+            },
+            {
+              "term": "Code Area",
+              "icon": "code",
+              "definition": "Tempat menyusun blok menjadi script."
+            },
+            {
+              "term": "Sequence",
+              "icon": "list-ordered",
+              "definition": "Urutan perintah dari atas ke bawah."
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "label": "CARA MEMBAYANGKANNYA",
+          "text": "Sprite seperti aktor, Stage seperti panggung, dan Code Area seperti naskah yang memberi tahu aktor apa yang harus dilakukan."
+        },
+        {
+          "type": "callout",
+          "icon": "lightbulb",
+          "title": "Coba amati",
+          "text": "Klik satu Sprite, lalu lihat daftar blok yang tersedia. Pindahkan satu blok ke Code Area dan amati bentuknya."
+        }
+      ]
+    },
+    {
+      "title": "Pemanasan: Kenalan dalam Satu Kalimat",
+      "intro": "Sebelum coding, pikirkan apa yang ingin kamu ceritakan. Ide kartu nama tetap berasal darimu.",
+      "blocks": [
+        {
+          "type": "worksheet",
+          "title": "Rancang kalimat perkenalan",
+          "description": "Gunakan nama panggilan dan informasi yang aman dibagikan.",
+          "fields": [
+            {
+              "id": "nickname",
+              "label": "Nama panggilan"
+            },
+            {
+              "id": "hobby",
+              "label": "Hobi yang kamu suka"
+            },
+            {
+              "id": "learn",
+              "label": "Hal yang ingin kamu pelajari"
+            },
+            {
+              "id": "intro",
+              "label": "Kalimat perkenalanmu",
+              "multiline": true,
+              "full": true
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "label": "CONTOH",
+          "text": "Halo, aku Kiko. Aku suka menggambar dan ingin belajar membuat game."
+        },
+        {
+          "type": "callout",
+          "icon": "shield",
+          "title": "Periksa privasi",
+          "text": "Pastikan kalimatmu tidak berisi nama lengkap, alamat, nomor telepon, kata sandi, atau informasi pribadi lainnya."
+        }
+      ]
+    },
+    {
+      "title": "Persiapan Proyek",
+      "intro": "Sekarang buka Scratch dan siapkan panggung serta karakter yang akan kamu gunakan.",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Buka Scratch",
+              "description": "Buka scratch.mit.edu melalui browser. Pilih Create untuk membuat project baru. Jika belum memiliki akun, kamu tetap bisa berlatih; minta bantuan guru/orang tua jika perlu menyimpan secara online."
+            },
+            {
+              "title": "Pilih Sprite",
+              "description": "Pilih satu karakter yang kamu sukai dari Sprite Library."
+            },
+            {
+              "title": "Periksa Costume",
+              "description": "Pastikan Sprite memiliki minimal dua costume agar bisa berganti tampilan."
+            },
+            {
+              "title": "Pilih Backdrop (opsional)",
+              "description": "Pilih latar yang cocok dengan kartu namamu."
+            },
+            {
+              "title": "Beri nama project",
+              "description": "Ganti nama project menjadi Kartu Nama Interaktif."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "icon": "lightbulb",
+          "title": "Kenali tombol penting",
+          "text": "Green Flag menjalankan script. Tombol Stop menghentikan script. Tab Costumes digunakan untuk melihat atau mengganti tampilan Sprite."
+        }
+      ]
+    },
+    {
+      "title": "Misi Utama: Buat Kartu Nama",
+      "intro": "Susun blok secara berurutan. Jalankan Green Flag setelah setiap tahap supaya kamu tahu hasilnya.",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "A — Mulai saat Green Flag diklik",
+              "description": "Ambil Events → when green flag clicked. Letakkan di bagian paling atas script. Tambahkan Looks → show jika Sprite perlu ditampilkan kembali."
+            },
+            {
+              "title": "B — Tampilkan sapaan",
+              "description": "Tambahkan Looks → say [Halo!] for [2] seconds. Ganti teksnya dengan sapaan dan nama panggilanmu."
+            },
+            {
+              "title": "C — Ceritakan hobimu",
+              "description": "Tambahkan blok say berikutnya untuk menceritakan hobi dan hal yang ingin dipelajari. Sisipkan wait jika kamu menggunakan say tanpa durasi."
+            },
+            {
+              "title": "D — Bergerak",
+              "description": "Tambahkan Motion → move [10] steps. Jalankan project dan amati arah gerak Sprite."
+            },
+            {
+              "title": "E — Berganti costume",
+              "description": "Tambahkan Looks → next costume. Coba jalankan lagi dan lihat perubahan tampilan Sprite."
+            },
+            {
+              "title": "F — Uji dari awal",
+              "description": "Klik Stop, lalu Green Flag. Pastikan sapaan, gerakan, dan pergantian costume berjalan sesuai urutan."
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "label": "URUTAN SCRIPT SEDERHANA",
+          "text": "when green flag clicked → show → say [Halo, aku ...!] for [2] seconds → say [Aku suka ...!] for [2] seconds → move [10] steps → next costume"
+        },
+        {
+          "type": "callout",
+          "tone": "mission",
+          "icon": "spark",
+          "title": "Ingat urutan!",
+          "text": "Blok yang menempel membentuk satu rangkaian perintah. Jika urutannya berubah, aksi Sprite juga bisa berubah."
+        }
+      ]
+    },
+    {
+      "title": "Detektif Kode: Testing & Debugging",
+      "intro": "Debugging adalah kegiatan mencari penyebab masalah dan memperbaikinya. Kesalahan adalah bagian normal dari belajar coding.",
+      "blocks": [
+        {
+          "type": "terms",
+          "items": [
+            {
+              "term": "Sprite diam",
+              "icon": "move",
+              "definition": "Periksa apakah blok when green flag clicked sudah terpasang dan move memiliki angka lebih dari 0."
+            },
+            {
+              "term": "Tidak menyapa",
+              "icon": "message-circle",
+              "definition": "Periksa blok say, teks di dalamnya, dan sambungan antarblok."
+            },
+            {
+              "term": "Terlalu cepat",
+              "icon": "clock",
+              "definition": "Gunakan say dengan durasi atau tambahkan wait di antara kalimat."
+            },
+            {
+              "term": "Tidak berganti costume",
+              "icon": "palette",
+              "definition": "Pastikan Sprite memiliki lebih dari satu costume dan blok next costume tersambung."
+            },
+            {
+              "term": "Sprite tidak terlihat",
+              "icon": "eye",
+              "definition": "Tambahkan Looks → show setelah event Green Flag."
+            }
+          ]
+        },
+        {
+          "type": "checklist",
+          "id": "s1-test",
+          "items": [
+            "Green Flag memulai script.",
+            "Sprite menampilkan kalimat perkenalan.",
+            "Kalimat cukup lama untuk dibaca.",
+            "Sprite bergerak saat script berjalan.",
+            "Costume Sprite berubah.",
+            "Project dapat dijalankan ulang dari awal."
+          ]
+        },
+        {
+          "type": "quiz",
+          "id": "s1-sequence",
+          "question": "Blok mana yang memulai script saat Green Flag diklik?",
+          "options": [
+            "move 10 steps",
+            "when green flag clicked",
+            "next costume"
+          ],
+          "answer": 1,
+          "correctMessage": "Betul! Event ini memulai rangkaian perintah.",
+          "tryMessage": "Cari blok Event yang namanya menyebut Green Flag."
+        }
+      ]
+    },
+    {
+      "title": "Output Minimum, Refleksi & Tantangan",
+      "intro": "Periksa hasil akhir sebelum menyimpan project dan membagikannya kepada guru.",
+      "blocks": [
+        {
+          "type": "checklist",
+          "id": "s1-output",
+          "items": [
+            "Menggunakan satu Sprite.",
+            "Sprite memiliki minimal dua costume.",
+            "Sprite menyapa dengan nama panggilan.",
+            "Sprite menyebutkan hobi atau hal yang ingin dipelajari.",
+            "Sprite bergerak menggunakan move.",
+            "Sprite berganti costume menggunakan next costume.",
+            "Project berjalan dari awal sampai selesai."
+          ]
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Simpan project",
+              "description": "Jika login, simpan project ke akun Scratch. Jika belum, ikuti arahan guru untuk menyimpan atau mengumpulkan hasil."
+            },
+            {
+              "title": "Bagikan dengan aman",
+              "description": "Bagikan link project hanya sesuai arahan guru. Jangan sertakan informasi pribadi."
+            }
+          ]
+        },
+        {
+          "type": "reflection",
+          "items": [
+            {
+              "title": "Bagian favorit",
+              "prompt": "Bagian mana yang paling kamu suka dari kartu nama interaktifmu?"
+            },
+            {
+              "title": "Blok baru",
+              "prompt": "Blok apa yang paling menarik untuk dicoba?"
+            },
+            {
+              "title": "Urutan perintah",
+              "prompt": "Apa yang terjadi jika urutan blok say dan move ditukar?"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "mission",
+          "icon": "trophy",
+          "title": "Misi bonus",
+          "text": "Tambahkan satu backdrop, satu sound, atau satu costume tambahan. Pilih tantangan yang paling ingin kamu coba."
+        },
+        {
+          "type": "callout",
+          "icon": "spark",
+          "title": "Sampai jumpa di Sesi 2!",
+          "text": "Berikutnya kita akan membantu Kiko mengantar paket menggunakan koordinat X dan Y."
+        }
+      ]
+    }
+  ]
+}
