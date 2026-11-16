@@ -359,3 +359,21 @@ html[data-theme="dark"] .pitch-action.primary{color:#0F172A!important;box-shadow
 .pitch-status.error{background:var(--rk-alert-soft)!important;color:var(--rk-alert-text)!important}
 .pitch-status.info{background:var(--rk-primary-soft)!important;color:var(--rk-primary-strong)!important}
 .pitch-student{border-color:var(--rk-line)!important}
+
+
+/* Pitch Deck preview cards: preserve each selected palette with AA text contrast. */
+.pitch-preview .pitch-card:nth-child(1){background:linear-gradient(135deg,#1D4ED8,#1E40AF)}
+.pitch-preview .pitch-card:nth-child(2){background:linear-gradient(135deg,#1E40AF,#1D4ED8)}
+.pitch-preview .pitch-card:nth-child(3){background:linear-gradient(135deg,#92400E,#B45309)}
+.pitch-preview .pitch-card:nth-child(4){background:linear-gradient(135deg,#78350F,#92400E)}
+.pitch-preview[data-theme="ocean"] .pitch-card:nth-child(1){background:linear-gradient(135deg,#1E3A8A,#1D4ED8)}
+.pitch-preview[data-theme="ocean"] .pitch-card:nth-child(2){background:linear-gradient(135deg,#164E63,#155E75)}
+.pitch-preview[data-theme="ocean"] .pitch-card:nth-child(3){background:linear-gradient(135deg,#14532D,#166534)}
+.pitch-preview[data-theme="ocean"] .pitch-card:nth-child(4){background:linear-gradient(135deg,#92400E,#B45309)}
+.pitch-preview[data-theme="sunset"] .pitch-card:nth-child(1){background:linear-gradient(135deg,#9F1239,#BE123C)}
+.pitch-preview[data-theme="sunset"] .pitch-card:nth-child(2){background:linear-gradient(135deg,#9A3412,#C2410C)}
+.pitch-preview[data-theme="sunset"] .pitch-card:nth-child(3){background:linear-gradient(135deg,#5B21B6,#6D28D9)}
+.pitch-preview[data-theme="sunset"] .pitch-card:nth-child(4){background:linear-gradient(135deg,#134E4A,#0F766E)}
+.pitch-card-label{opacity:1}
+.pitch-card p{color:#FFFFFF!important}
+.pitch-card .pitch-chip{background:rgba(0,0,0,.28);color:#FFFFFF}
