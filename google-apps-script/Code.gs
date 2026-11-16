@@ -83,7 +83,7 @@ function doPost(e) {
 
 function safeCell_(value, maxLength) {
   var text = String(value == null ? "" : value).substring(0, maxLength);
-  return /^[=+@\\-\\t\\r]/.test(text) ? "'" + text : text;
+  return /^[=+\-@\t\r]/.test(text) ? "'" + text : text;
 }
 
 function response_(status, message) {
